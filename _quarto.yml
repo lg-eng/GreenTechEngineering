@@ -1,6 +1,6 @@
 project:
   type: website
-
+bibliography: references.bib
 website:
   title: "GreenTechEngineering"
   navbar:
@@ -8,8 +8,9 @@ website:
       - about.qmd
       - icon: github
         href: https://github.com/
-      - icon: twitter
-        href: https://twitter.com
+  sidebar:
+    style: "docked"
+    search: true
 format:
   html:
     theme: cosmo

@@ -3,10 +3,46 @@ title: "Welcome to Green Tech Engineering!"
 author: "Leopold Götsch"
 date: "2024-03-11"
 categories: [news]
+page-layout: article
+image: Maintheme.jpeg
 ---
 
-Welcome to Green Tech Engineering  
-Science for a better future!
+# Welcome to Green Tech Engineering  
+## Engineer a better future!
 
-![](Maintheme.jpeg)
+
+<!-- ![@Im1](Maintheme.jpeg){width=30%} -->
+
+## Warum Green Tech Engineering
+
+Grüne Technologie-Engineering, auch bekannt als Green Tech Engineering, ist in der heutigen Welt von entscheidender Bedeutung aus mehreren Gründen:
+
+1. **Umweltschutz**: Angesichts der zunehmenden Umweltverschmutzung, des Klimawandels und der Erschöpfung natürlicher Ressourcen ist die Entwicklung von grüner Technologie entscheidend, um die Umwelt zu schützen und nachhaltige Lösungen zu fördern.
+
+2. **Energieeffizienz**: Grüne Technologien zielen darauf ab, Energie effizienter zu nutzen und den Verbrauch von nicht erneuerbaren Ressourcen zu reduzieren. Dies trägt dazu bei, den Energiebedarf zu senken und gleichzeitig die Umweltbelastung zu verringern.
+
+3. **Wirtschaftliche Vorteile**: Die Entwicklung und Implementierung von grünen Technologien schafft neue Geschäftsmöglichkeiten und Arbeitsplätze in Bereichen wie erneuerbare Energien, saubere Transportmittel, Umwelttechnik und grüne Bautechnologien.
+
+4. **Gesundheit und Lebensqualität**: Durch die Reduzierung von Umweltverschmutzung und den Einsatz von saubereren Technologien können Gesundheitsrisiken minimiert und die Lebensqualität verbessert werden, was sich positiv auf das Wohlbefinden von Menschen auswirkt.
+
+5. **Klimawandelbekämpfung**: Grüne Technologien spielen eine entscheidende Rolle bei der Bekämpfung des Klimawandels, indem sie Treibhausgasemissionen reduzieren und die Abhängigkeit von fossilen Brennstoffen verringern.
+
+6. **Nachhaltige Entwicklung**: Durch die Integration grüner Technologien können wir eine nachhaltigere Zukunft schaffen, in der die Bedürfnisse der heutigen Generation erfüllt werden, ohne die Möglichkeiten zukünftiger Generationen zu beeinträchtigen.
+
+Insgesamt ist Green Tech Engineering von großer Bedeutung, da es nicht nur dazu beiträgt, Umweltprobleme anzugehen, sondern auch wirtschaftliche, gesundheitliche und soziale Vorteile bietet, während es auf eine nachhaltige und verantwortungsbewusste Art und Weise Innovation fördert.
+
+## Unterrichtsmethode
+Green Tech Engineering wird projektbezogen und praxisnah unterrichtet, indem Schüler*innen an realen Problemen arbeiten und Lösungen entwickeln. 
+
+1. **Projektbasiertes Lernen**: Schüler*innen können in Teams an Projekten arbeiten, die sich auf verschiedene Aspekte von Green Tech Engineering konzentrieren, wie z.B. die Entwicklung eines Solarenergiesystems für die Schule, das Design eines energieeffizienten elektronischen Geräts oder die Implementierung eines intelligenten Energiemanagementsystems für ein Gebäude.
+
+2. **Praktische Experimente**: Durch die Durchführung von Experimenten und Demonstrationen können Schüler*innen die Prinzipien hinter grüner Technologie besser verstehen. Dies könnte das Testen von Solarpanelen, den Aufbau eines Windturbinenmodells oder die Analyse des Energieverbrauchs von elektronischen Geräten umfassen.
+
+3. **Exkursionen und Gastvorträge**: Exkursionen zu grünen Technologieunternehmen, erneuerbaren Energieanlagen oder Umweltschutzorganisationen bieten den Schüler*innenn die Möglichkeit, Einblicke in die reale Welt von Green Tech Engineering zu gewinnen. Gastvorträge von Fachleuten aus der Branche können auch wertvolle Einblicke und Inspiration bieten.
+
+4. **Prototyping und Design Thinking**: Schüler*innen können Prototypen von grünen Technologielösungen entwerfen und bauen, indem sie Design-Thinking-Methoden anwenden. Dies kann den gesamten Entwicklungsprozess von der Ideenfindung über die Prototypenerstellung bis hin zur Evaluation und Verbesserung umfassen.
+
+6. **Community-Engagement-Projekte**: Schüler*innen können in Projekten mit lokalen Gemeinschaften zusammenarbeiten, um grüne Technologien einzuführen oder Umweltprobleme anzugehen. Dies könnte die Organisation von Recyclinginitiativen, die Durchführung von Energieaudits in Schulen oder die Gestaltung von umweltfreundlichen Veranstaltungen umfassen.
+
+Durch eine Kombination dieser praxisnahen Ansätze können Schüler*innen nicht nur ihr Verständnis für Green Tech Engineering vertiefen, sondern auch wichtige Fähigkeiten wie Problemlösung, kritisches Denken und Teamarbeit entwickeln.
 

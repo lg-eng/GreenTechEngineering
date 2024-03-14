@@ -1,0 +1,70 @@
+---
+title: "Lehrinhalte Green Tech Engineering!"
+author: "Leopold Götsch"
+date: "2024-03-12"
+categories: [news]
+---
+
+Hier finden Sie das Vorläufige Curriculum für das Schwerpunktfach Green Tech Engineering.
+
+Natürlich! Hier ist ein vorgeschlagenes Lehrplan für einen zweijährigen Kurs "Grüne Technologie-Engineering", der an einer Schule für elektronisches Hardware-Design und Informatik unterrichtet werden soll. Der Kurs richtet sich an Schüler im Alter von 16-18 Jahren und umfasst 2 Stunden Unterricht pro Woche:
+
+### Jahr 1:
+
+#### Semester 1:
+1. **Einführung in die Grüne Technologie**
+   - Definition und Bedeutung von grüner Technologie.
+   - Überblick über Umweltprobleme und die Rolle der Technologie bei ihrer Bewältigung.
+2. **Erneuerbare Energiequellen**
+   - Solarenergieerzeugung: Prinzipien und Anwendungen.
+   - Windenergie: Turbinen, Effizienz und Integration in Stromnetze.
+3. **Energiespeicherlösungen**
+   - Batterien: Arten, Merkmale und Anwendungen.
+   - Kondensatoren und Supraleiter: Prinzipien und Vergleich.
+4. **Effizientes Elektronikdesign**
+   - Niedrigenergieelektronik: Techniken und Designüberlegungen.
+   - Energieeffiziente Komponenten und Schaltkreise.
+
+#### Semester 2:
+5. **Nachhaltige Materialien in der Elektronik**
+   - Einführung in nachhaltige Materialien und ihre Anwendungen in der Elektronik.
+   - Recycling und Lebenszyklusanalyse elektronischer Produkte.
+6. **Intelligente Stromnetze und Energiemanagement**
+   - Smart-Grid-Technologien und ihre Rolle bei der Optimierung der Energieverteilung.
+   - Energiemanagementsysteme für effizienten Verbrauch.
+7. **Grüne Informations- und Kommunikationstechnologie (IKT)**
+   - Umweltfreundliche Praktiken in Rechenzentren und Computing-Infrastruktur.
+   - Energieeffiziente Netzwerkprotokolle und Geräte.
+8. **Projekt: Entwurf einer grünen Technologielösung**
+   - Die Schüler arbeiten in Gruppen, um eine grüne Technologielösung zu konzipieren und zu entwerfen, wobei sie die im Semester gelernten Prinzipien einbeziehen.
+
+### Jahr 2:
+
+#### Semester 1:
+1. **Umweltüberwachung und Sensoren**
+   - Einführung in Umweltsensoren und Überwachungssysteme.
+   - Anwendungen in der Umweltverschmutzungserkennung, Klimaüberwachung usw.
+2. **IoT (Internet der Dinge) für Nachhaltigkeit**
+   - IoT-Anwendungen für Umweltüberwachung und -schutz.
+   - Entwurf von IoT-Systemen mit geringem Energiebedarf.
+3. **Grüne Gebäudetechnologien**
+   - Nachhaltige Architekturprinzipien und -technologien.
+   - Energieeffiziente Gebäudeplanung und -materialien.
+4. **Kreislaufwirtschaft und Abfallmanagement**
+   - Verständnis des Kreislaufwirtschaftsmodells.
+   - Strategien zur Abfallreduzierung und Recyclingtechnologien.
+
+#### Semester 2:
+5. **Hybrid- und Elektrofahrzeuge**
+   - Prinzipien der Elektrofahrzeugtechnologie.
+   - Designüberlegungen für Elektrofahrzeuge und Hybridfahrzeuge.
+6. **Wassermanagement und -konservierung**
+   - Technologien zur Wasseraufbereitung und -konservierung.
+   - IoT-Anwendungen im Wassermanagement.
+7. **Politik und Regulierung in der Grünen Technologie**
+   - Überblick über Umweltpolitik und -vorschriften.
+   - Ethikaspekte bei der Entwicklung grüner Technologien.
+8. **Abschlussprojekt: Implementierung und Präsentation**
+   - Die Schüler setzen ihre in Jahr 1 entworfene grüne Technologielösung um, dokumentieren ihren Prozess und präsentieren ihre Projektergebnisse vor der Klasse.
+
+Durch praktische Aktivitäten, Fallstudien, Gastvorträge von Branchenexperten und Exkursionen zu relevanten Einrichtungen wird der Unterricht ergänzt.

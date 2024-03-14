@@ -1,8 +1,8 @@
 ---
 title: "About"
-image: profile.jpg
+image: posts/welcome/Maintheme.jpeg
 about:
-  template: trestles
+  template: jolla
   links:
     - icon: github
       text: Github
@@ -10,4 +10,4 @@ about:
 
 ---
 
-About this blog
+Auf dieser Webseite finden Sie Informationen zum Schwerpunktfach *Green Tech Engineering* an der HTL Anichstraße in Innsbruck.
