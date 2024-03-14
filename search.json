@@ -1,5 +1,33 @@
 [
   {
+    "objectID": "readme.html",
+    "href": "readme.html",
+    "title": "GreenTechEngineering",
+    "section": "",
+    "text": "https://lg-eng.github.io/GreenTechEngineering/"
+  },
+  {
+    "objectID": "posts/curiculum/index.html",
+    "href": "posts/curiculum/index.html",
+    "title": "Lehrinhalte Green Tech Engineering!",
+    "section": "",
+    "text": "Hier finden Sie das Vorläufige Curriculum für das Schwerpunktfach Green Tech Engineering.\nNatürlich! Hier ist ein vorgeschlagenes Lehrplan für einen zweijährigen Kurs “Grüne Technologie-Engineering”, der an einer Schule für elektronisches Hardware-Design und Informatik unterrichtet werden soll. Der Kurs richtet sich an Schüler im Alter von 16-18 Jahren und umfasst 2 Stunden Unterricht pro Woche:\n\nJahr 1:\n\nSemester 1:\n\nEinführung in die Grüne Technologie\n\nDefinition und Bedeutung von grüner Technologie.\nÜberblick über Umweltprobleme und die Rolle der Technologie bei ihrer Bewältigung.\n\nErneuerbare Energiequellen\n\nSolarenergieerzeugung: Prinzipien und Anwendungen.\nWindenergie: Turbinen, Effizienz und Integration in Stromnetze.\n\nEnergiespeicherlösungen\n\nBatterien: Arten, Merkmale und Anwendungen.\nKondensatoren und Supraleiter: Prinzipien und Vergleich.\n\nEffizientes Elektronikdesign\n\nNiedrigenergieelektronik: Techniken und Designüberlegungen.\nEnergieeffiziente Komponenten und Schaltkreise.\n\n\n\n\nSemester 2:\n\nNachhaltige Materialien in der Elektronik\n\nEinführung in nachhaltige Materialien und ihre Anwendungen in der Elektronik.\nRecycling und Lebenszyklusanalyse elektronischer Produkte.\n\nIntelligente Stromnetze und Energiemanagement\n\nSmart-Grid-Technologien und ihre Rolle bei der Optimierung der Energieverteilung.\nEnergiemanagementsysteme für effizienten Verbrauch.\n\nGrüne Informations- und Kommunikationstechnologie (IKT)\n\nUmweltfreundliche Praktiken in Rechenzentren und Computing-Infrastruktur.\nEnergieeffiziente Netzwerkprotokolle und Geräte.\n\nProjekt: Entwurf einer grünen Technologielösung\n\nDie Schüler arbeiten in Gruppen, um eine grüne Technologielösung zu konzipieren und zu entwerfen, wobei sie die im Semester gelernten Prinzipien einbeziehen.\n\n\n\n\n\nJahr 2:\n\nSemester 1:\n\nUmweltüberwachung und Sensoren\n\nEinführung in Umweltsensoren und Überwachungssysteme.\nAnwendungen in der Umweltverschmutzungserkennung, Klimaüberwachung usw.\n\nIoT (Internet der Dinge) für Nachhaltigkeit\n\nIoT-Anwendungen für Umweltüberwachung und -schutz.\nEntwurf von IoT-Systemen mit geringem Energiebedarf.\n\nGrüne Gebäudetechnologien\n\nNachhaltige Architekturprinzipien und -technologien.\nEnergieeffiziente Gebäudeplanung und -materialien.\n\nKreislaufwirtschaft und Abfallmanagement\n\nVerständnis des Kreislaufwirtschaftsmodells.\nStrategien zur Abfallreduzierung und Recyclingtechnologien.\n\n\n\n\nSemester 2:\n\nHybrid- und Elektrofahrzeuge\n\nPrinzipien der Elektrofahrzeugtechnologie.\nDesignüberlegungen für Elektrofahrzeuge und Hybridfahrzeuge.\n\nWassermanagement und -konservierung\n\nTechnologien zur Wasseraufbereitung und -konservierung.\nIoT-Anwendungen im Wassermanagement.\n\nPolitik und Regulierung in der Grünen Technologie\n\nÜberblick über Umweltpolitik und -vorschriften.\nEthikaspekte bei der Entwicklung grüner Technologien.\n\nAbschlussprojekt: Implementierung und Präsentation\n\nDie Schüler setzen ihre in Jahr 1 entworfene grüne Technologielösung um, dokumentieren ihren Prozess und präsentieren ihre Projektergebnisse vor der Klasse.\n\n\nDurch praktische Aktivitäten, Fallstudien, Gastvorträge von Branchenexperten und Exkursionen zu relevanten Einrichtungen wird der Unterricht ergänzt."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Auf dieser Webseite finden Sie Informationen zum Schwerpunktfach Green Tech Engineering an der HTL Anichstraße in Innsbruck."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "GreenTechEngineering",
+    "section": "",
+    "text": "Welcome to Green Tech Engineering!\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nMar 11, 2024\n\n\nLeopold Götsch\n\n\n\n\n\n\n\n\n\n\n\n\nLehrinhalte Green Tech Engineering!\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nMar 12, 2024\n\n\nLeopold Götsch\n\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "posts/welcome/index.html",
     "href": "posts/welcome/index.html",
     "title": "Welcome to Green Tech Engineering!",
@@ -19,26 +47,5 @@
     "title": "Welcome to Green Tech Engineering!",
     "section": "",
     "text": "Green Tech Engineering wird projektbezogen und praxisnah unterrichtet, indem Schüler*innen an realen Problemen arbeiten und Lösungen entwickeln.\n\nProjektbasiertes Lernen: Schüler*innen können in Teams an Projekten arbeiten, die sich auf verschiedene Aspekte von Green Tech Engineering konzentrieren, wie z.B. die Entwicklung eines Solarenergiesystems für die Schule, das Design eines energieeffizienten elektronischen Geräts oder die Implementierung eines intelligenten Energiemanagementsystems für ein Gebäude.\nPraktische Experimente: Durch die Durchführung von Experimenten und Demonstrationen können Schüler*innen die Prinzipien hinter grüner Technologie besser verstehen. Dies könnte das Testen von Solarpanelen, den Aufbau eines Windturbinenmodells oder die Analyse des Energieverbrauchs von elektronischen Geräten umfassen.\nExkursionen und Gastvorträge: Exkursionen zu grünen Technologieunternehmen, erneuerbaren Energieanlagen oder Umweltschutzorganisationen bieten den Schüler*innenn die Möglichkeit, Einblicke in die reale Welt von Green Tech Engineering zu gewinnen. Gastvorträge von Fachleuten aus der Branche können auch wertvolle Einblicke und Inspiration bieten.\nPrototyping und Design Thinking: Schüler*innen können Prototypen von grünen Technologielösungen entwerfen und bauen, indem sie Design-Thinking-Methoden anwenden. Dies kann den gesamten Entwicklungsprozess von der Ideenfindung über die Prototypenerstellung bis hin zur Evaluation und Verbesserung umfassen.\nCommunity-Engagement-Projekte: Schüler*innen können in Projekten mit lokalen Gemeinschaften zusammenarbeiten, um grüne Technologien einzuführen oder Umweltprobleme anzugehen. Dies könnte die Organisation von Recyclinginitiativen, die Durchführung von Energieaudits in Schulen oder die Gestaltung von umweltfreundlichen Veranstaltungen umfassen.\n\nDurch eine Kombination dieser praxisnahen Ansätze können Schüler*innen nicht nur ihr Verständnis für Green Tech Engineering vertiefen, sondern auch wichtige Fähigkeiten wie Problemlösung, kritisches Denken und Teamarbeit entwickeln."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "GreenTechEngineering",
-    "section": "",
-    "text": "Welcome to Green Tech Engineering!\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nMar 11, 2024\n\n\nLeopold Götsch\n\n\n\n\n\n\n\n\n\n\n\n\nLehrinhalte Green Tech Engineering!\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nMar 12, 2024\n\n\nLeopold Götsch\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "Auf dieser Webseite finden Sie Informationen zum Schwerpunktfach Green Tech Engineering an der HTL Anichstraße in Innsbruck."
-  },
-  {
-    "objectID": "posts/curiculum/index.html",
-    "href": "posts/curiculum/index.html",
-    "title": "Lehrinhalte Green Tech Engineering!",
-    "section": "",
-    "text": "Hier finden Sie das Vorläufige Curriculum für das Schwerpunktfach Green Tech Engineering.\nNatürlich! Hier ist ein vorgeschlagenes Lehrplan für einen zweijährigen Kurs “Grüne Technologie-Engineering”, der an einer Schule für elektronisches Hardware-Design und Informatik unterrichtet werden soll. Der Kurs richtet sich an Schüler im Alter von 16-18 Jahren und umfasst 2 Stunden Unterricht pro Woche:\n\nJahr 1:\n\nSemester 1:\n\nEinführung in die Grüne Technologie\n\nDefinition und Bedeutung von grüner Technologie.\nÜberblick über Umweltprobleme und die Rolle der Technologie bei ihrer Bewältigung.\n\nErneuerbare Energiequellen\n\nSolarenergieerzeugung: Prinzipien und Anwendungen.\nWindenergie: Turbinen, Effizienz und Integration in Stromnetze.\n\nEnergiespeicherlösungen\n\nBatterien: Arten, Merkmale und Anwendungen.\nKondensatoren und Supraleiter: Prinzipien und Vergleich.\n\nEffizientes Elektronikdesign\n\nNiedrigenergieelektronik: Techniken und Designüberlegungen.\nEnergieeffiziente Komponenten und Schaltkreise.\n\n\n\n\nSemester 2:\n\nNachhaltige Materialien in der Elektronik\n\nEinführung in nachhaltige Materialien und ihre Anwendungen in der Elektronik.\nRecycling und Lebenszyklusanalyse elektronischer Produkte.\n\nIntelligente Stromnetze und Energiemanagement\n\nSmart-Grid-Technologien und ihre Rolle bei der Optimierung der Energieverteilung.\nEnergiemanagementsysteme für effizienten Verbrauch.\n\nGrüne Informations- und Kommunikationstechnologie (IKT)\n\nUmweltfreundliche Praktiken in Rechenzentren und Computing-Infrastruktur.\nEnergieeffiziente Netzwerkprotokolle und Geräte.\n\nProjekt: Entwurf einer grünen Technologielösung\n\nDie Schüler arbeiten in Gruppen, um eine grüne Technologielösung zu konzipieren und zu entwerfen, wobei sie die im Semester gelernten Prinzipien einbeziehen.\n\n\n\n\n\nJahr 2:\n\nSemester 1:\n\nUmweltüberwachung und Sensoren\n\nEinführung in Umweltsensoren und Überwachungssysteme.\nAnwendungen in der Umweltverschmutzungserkennung, Klimaüberwachung usw.\n\nIoT (Internet der Dinge) für Nachhaltigkeit\n\nIoT-Anwendungen für Umweltüberwachung und -schutz.\nEntwurf von IoT-Systemen mit geringem Energiebedarf.\n\nGrüne Gebäudetechnologien\n\nNachhaltige Architekturprinzipien und -technologien.\nEnergieeffiziente Gebäudeplanung und -materialien.\n\nKreislaufwirtschaft und Abfallmanagement\n\nVerständnis des Kreislaufwirtschaftsmodells.\nStrategien zur Abfallreduzierung und Recyclingtechnologien.\n\n\n\n\nSemester 2:\n\nHybrid- und Elektrofahrzeuge\n\nPrinzipien der Elektrofahrzeugtechnologie.\nDesignüberlegungen für Elektrofahrzeuge und Hybridfahrzeuge.\n\nWassermanagement und -konservierung\n\nTechnologien zur Wasseraufbereitung und -konservierung.\nIoT-Anwendungen im Wassermanagement.\n\nPolitik und Regulierung in der Grünen Technologie\n\nÜberblick über Umweltpolitik und -vorschriften.\nEthikaspekte bei der Entwicklung grüner Technologien.\n\nAbschlussprojekt: Implementierung und Präsentation\n\nDie Schüler setzen ihre in Jahr 1 entworfene grüne Technologielösung um, dokumentieren ihren Prozess und präsentieren ihre Projektergebnisse vor der Klasse.\n\n\nDurch praktische Aktivitäten, Fallstudien, Gastvorträge von Branchenexperten und Exkursionen zu relevanten Einrichtungen wird der Unterricht ergänzt."
   }
 ]
