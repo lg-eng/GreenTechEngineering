@@ -1,0 +1,76 @@
+---
+title: "01 Welcome to Green Tech Engineering!"
+author: "Leopold Götsch"
+date: "2024-07-28"
+categories: [news]
+page-layout: article
+image: Team.jpeg
+---
+
+Einführung in die Grüne Technologie: Definition und Bedeutung von grüner Technologie
+
+## Green Tech Engineering - Einführung
+
+### 1. Begrüßung und Vorstellung
+- Kurze Vorstellung der Lehrkraft
+- [Überblick über den Unterrichtsplan und die Ziele des Faches](../curiculum/index.qmd)
+
+### 2. Vorstellrunde der Schüler
+**Ablauf:**
+1. Jeder Schüler stellt sich kurz vor:
+   - Name
+   - Warum sie sich für Green Tech Engineering interessieren
+   - Eine grüne Technologie, die sie beeindruckend finden oder von der sie gehört haben
+
+### 3. Einführung in die Grüne Technologie
+#### Definition von Green Tech Engineering
+Green Tech Engineering befasst sich mit allen Technologien die dazu beitragen, die Umwelt zu schützen. Es ist ein interdisziplinäres Feld, das Ingenieurwesen, Umweltwissenschaften und Technologie kombiniert, um innovative Lösungen für Umweltprobleme zu entwickeln.
+
+#### Beispiele
+
+1. **Energieeffiziente Automatisierungssysteme:**
+   - **Intelligente Gebäudeautomation:** Systeme, die durch Steuerungseinheiten die Beleuchtung, Heizung und Kühlung in Gebäuden optimieren. Sensoren und Aktuatoren arbeiten zusammen, um den Energieverbrauch basierend auf der tatsächlichen Nutzung und Umgebungsbedingungen zu reduzieren.
+
+2. **Präzisionsbewässerungssysteme:**
+   - **Smart Irrigation Systems:** Diese Systeme nutzen Sensoren, um den Feuchtigkeitsgehalt des Bodens zu überwachen und den Wasserverbrauch zu optimieren. Komponenten wie automatische Ventile und Pumpen regulieren präzise die Wassermenge, die den Pflanzen zugeführt wird.
+
+3. **Intelligente Energieverteilung:**
+   - **Smart Grids:** Elektronik wird eingesetzt, um intelligente Stromnetze zu entwickeln, die durch Sensoren und Steuerungssysteme die Energieverteilung in Echtzeit überwachen und anpassen. Dies ermöglicht eine effizientere Nutzung von erneuerbaren Energien und eine bessere Integration von Energiespeichern.
+
+4. **Erneuerbare Energie-Ernte:**
+   - **Solartracker:** Systeme, die Solarmodule automatisch so ausrichten, dass sie immer den optimalen Winkel zur Sonne haben. Dies erhöht die Effizienz der Solarstromerzeugung, indem die maximale Menge an Sonnenlicht eingefangen wird.
+
+5. **Umweltfreundliche Transportlösungen:**
+   - **Elektrofahrzeug-Managementsysteme:** Systeme in Elektrofahrzeugen umfassen Batteriemanagementsysteme (BMS), die die Lade- und Entladezyklen überwachen und optimieren, um die Lebensdauer der Batterie zu verlängern und die Energieeffizienz zu maximieren. Auch die Integration von regenerativen Bremsensystemen zur Energieerzeugung während des Bremsvorgangs gehört dazu.
+
+#### Motivation
+Green Tech Engineering, ist in der heutigen Welt von entscheidender Bedeutung aus mehreren Gründen:
+
+1. **Umweltschutz**: Angesichts der zunehmenden Umweltverschmutzung, des Klimawandels und der Erschöpfung natürlicher Ressourcen ist die Entwicklung von grüner Technologie entscheidend, um die Umwelt zu schützen und nachhaltige Lösungen zu fördern.
+
+2. **Energieeffizienz**: Grüne Technologien zielen darauf ab, Energie effizienter zu nutzen und den Verbrauch von nicht erneuerbaren Ressourcen zu reduzieren. Dies trägt dazu bei, den Energiebedarf zu senken und gleichzeitig die Umweltbelastung zu verringern.
+
+3. **Wirtschaftliche Vorteile**: Die Entwicklung und Implementierung von grünen Technologien schafft neue Geschäftsmöglichkeiten und Arbeitsplätze in Bereichen wie erneuerbare Energien, saubere Transportmittel, Umwelttechnik und grüne Bautechnologien.
+
+4. **Gesundheit und Lebensqualität**: Durch die Reduzierung von Umweltverschmutzung und den Einsatz von saubereren Technologien können Gesundheitsrisiken minimiert und die Lebensqualität verbessert werden, was sich positiv auf das Wohlbefinden von Menschen auswirkt.
+
+5. **Klimawandelbekämpfung**: Grüne Technologien spielen eine entscheidende Rolle bei der Bekämpfung des Klimawandels, indem sie Treibhausgasemissionen reduzieren und die Abhängigkeit von fossilen Brennstoffen verringern.
+
+6. **Nachhaltige Entwicklung**: Durch die Integration grüner Technologien können wir eine nachhaltigere Zukunft schaffen, in der die Bedürfnisse der heutigen Generation erfüllt werden, ohne die Möglichkeiten zukünftiger Generationen zu beeinträchtigen.
+
+Insgesamt ist Green Tech Engineering von großer Bedeutung, da es nicht nur dazu beiträgt, Umweltprobleme anzugehen, sondern auch wirtschaftliche, gesundheitliche und soziale Vorteile bietet, während es auf eine nachhaltige und verantwortungsbewusste Art und Weise Innovation fördert.
+
+#### 4. Gruppenarbeit: Brainstorming zu grünen Technologien
+**Ablauf:**
+- Aufteilung in kleine Gruppen (3-4 Schüler)
+- Jede Gruppe arbeitet eine OneNote Seite aus.
+- Aufgabenstellung:
+  1. Denken Sie an verschiedene grüne Technologien.
+  2. Schreiben Sie auf, was diese Technologien umweltfreundlich macht.
+  3. Wählen Sie eine Technologie aus, die Sie besonders interessant findet und bereitet eine kurze Präsentation vor.
+
+**Präsentation der Ergebnisse:**
+- Jede Gruppe präsentiert ihre ausgewählte Technologie und erläutert, warum sie umweltfreundlich ist (ca. 2-3 Minuten pro Gruppe).
+
+
+

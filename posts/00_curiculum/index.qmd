@@ -1,0 +1,135 @@
+---
+title: "00 Lehrinhalte Green Tech Engineering"
+author: "Leopold Götsch"
+date: "2024-07-28"
+categories: [news]
+image: Maintheme.jpeg
+---
+
+Hier finden Sie das  Curriculum für das Schwerpunktfach Green Tech Engineering.
+
+## Übersicht
+
+### Jahr 1:
+
+#### Semester 1 (September bis Ende Januar):
+
+1. **Einführung in die Grüne Technologie** (Wochen 1-2)
+   - Definition und Bedeutung von grüner Technologie.
+   - Überblick über Umweltprobleme und die Rolle der Technologie bei ihrer Bewältigung.
+
+2. **Erneuerbare Energiequellen** (Wochen 3-6)
+   - Solarenergieerzeugung: Prinzipien und Anwendungen.
+   - Windenergie: Turbinen, Effizienz und Integration in Stromnetze.
+
+3. **Energiespeicherlösungen** (Wochen 7-10)
+   - Batterien: Arten, Merkmale und Anwendungen.
+   - Kondensatoren und Supraleiter: Prinzipien und Vergleich.
+
+4. **Effizientes Elektronikdesign** (Wochen 11-14)
+   - Niedrigenergieelektronik: Techniken und Designüberlegungen.
+   - Energieeffiziente Komponenten und Schaltkreise.
+
+#### Semester 2 (Februar bis Ende Juni):
+
+5. **Nachhaltige Materialien in der Elektronik** (Wochen 1-4)
+   - Einführung in nachhaltige Materialien und ihre Anwendungen in der Elektronik.
+   - Recycling und Lebenszyklusanalyse elektronischer Produkte.
+
+6. **Intelligente Stromnetze und Energiemanagement** (Wochen 5-8)
+   - Smart-Grid-Technologien und ihre Rolle bei der Optimierung der Energieverteilung.
+   - Energiemanagementsysteme für effizienten Verbrauch.
+
+7. **Grüne Informations- und Kommunikationstechnologie (IKT)** (Wochen 9-12)
+   - Umweltfreundliche Praktiken in Rechenzentren und Computing-Infrastruktur.
+   - Energieeffiziente Netzwerkprotokolle und Geräte.
+
+8. **Projekt: Entwurf einer grünen Technologielösung (theoretisch)** (Wochen 13-18)
+   - Die Schüler arbeiten in Gruppen, um eine theoretische grüne Technologielösung zu konzipieren und zu entwerfen, wobei sie die im Semester gelernten Prinzipien einbeziehen.
+
+### Jahr 2:
+
+#### Semester 1 (September bis Ende Januar):
+
+1. **Umweltüberwachung und Sensoren** (Wochen 1-3)
+   - Einführung in Umweltsensoren und Überwachungssysteme.
+   - Anwendungen in der Umweltverschmutzungserkennung, Klimaüberwachung usw.
+
+2. **IoT (Internet der Dinge) für Nachhaltigkeit** (Wochen 4-6)
+   - IoT-Anwendungen für Umweltüberwachung und -schutz.
+   - Entwurf von IoT-Systemen mit geringem Energiebedarf (theoretisch).
+
+3. **Grüne Gebäudetechnologien** (Wochen 7-9)
+   - Nachhaltige Architekturprinzipien und -technologien.
+   - Energieeffiziente Gebäudeplanung und -materialien.
+
+4. **Kreislaufwirtschaft und Abfallmanagement** (Wochen 10-13)
+   - Verständnis des Kreislaufwirtschaftsmodells.
+   - Strategien zur Abfallreduzierung und Recyclingtechnologien.
+
+**Ferienzeiten:**
+- Herbstferien: 27.10. - 31.10.
+- Weihnachtsferien: 24.12. - 06.01.
+- Semesterferien: 12.02. - 18.02.
+
+#### Semester 2 (Februar bis Ende März):
+
+5. **Hybrid- und Elektrofahrzeuge** (Wochen 1-3)
+   - Prinzipien der Elektrofahrzeugtechnologie.
+   - Designüberlegungen für Elektrofahrzeuge und Hybridfahrzeuge (theoretisch).
+
+6. **Wassermanagement und -konservierung** (Wochen 4-6)
+   - Technologien zur Wasseraufbereitung und -konservierung.
+   - IoT-Anwendungen im Wassermanagement.
+
+7. **Politik und Regulierung in der Grünen Technologie** (Wochen 7-8)
+   - Überblick über Umweltpolitik und -vorschriften.
+   - Ethikaspekte bei der Entwicklung grüner Technologien.
+
+8. **Abschlussprojekt: Implementierung und Präsentation (theoretisch)** (Wochen 9-10)
+   - Die Schüler setzen ihre in Jahr 1 entworfene grüne Technologielösung theoretisch um, dokumentieren ihren Prozess und präsentieren ihre Projektergebnisse vor der Klasse.
+
+
+## Lehrstoffverteilung im Detail
+### Jahr 1 (4. Jahrgang)
+
+
+| Woche       | Thema                                                                                  |
+|-------------|----------------------------------------------------------------------------------------|
+| KW 37       | [Einführung in die Grüne Technologie: Definition und Bedeutung von grüner Technologie](../01/index.qmd)   |
+| KW 38       | [Einführung in die Grüne Technologie: Überblick über Umweltprobleme](../02/index.qmd)                      |
+| KW 39       | Erneuerbare Energiequellen: Solarenergieerzeugung: Prinzipien                           |
+| KW 40       | Erneuerbare Energiequellen: Solarenergieerzeugung: Anwendungen                          |
+| KW 41       | Erneuerbare Energiequellen: Windenergie: Turbinen                                       |
+| KW 42       | Erneuerbare Energiequellen: Windenergie: Effizienz und Integration in Stromnetze        |
+| KW 43       | Test 1: Einführung und Erneuerbare Energiequellen (Solarenergie)                        |
+| KW 45       | Energiespeicherlösungen: Batterien: Arten                                               |
+| KW 46       | Energiespeicherlösungen: Batterien: Merkmale und Anwendungen                            |
+| KW 47       | Energiespeicherlösungen: Kondensatoren: Prinzipien                                      |
+| KW 48       | Energiespeicherlösungen: Kondensatoren: Vergleich                                       |
+| KW 49       | Energiespeicherlösungen: Supraleiter: Prinzipien                                        |
+| KW 50       | Energiespeicherlösungen: Supraleiter: Vergleich                                         |
+| KW 51       | Test 2: Energiespeicherlösungen                                                         |
+| KW 2        | Effizientes Elektronikdesign: Niedrigenergieelektronik: Techniken                       |
+| KW 3        | Effizientes Elektronikdesign: Niedrigenergieelektronik: Designüberlegungen              |
+| KW 4        | Effizientes Elektronikdesign: Energieeffiziente Komponenten                             |
+| KW 5        | Effizientes Elektronikdesign: Energieeffiziente Schaltkreise                            |
+| KW 6        | Test 3: Effizientes Elektronikdesign                                                    |
+| KW 8        | Nachhaltige Materialien in der Elektronik: Einführung in nachhaltige Materialien        |
+| KW 9        | Nachhaltige Materialien in der Elektronik: Anwendungen in der Elektronik                |
+| KW 10       | Nachhaltige Materialien in der Elektronik: Recycling von elektronischen Produkten       |
+| KW 11       | Nachhaltige Materialien in der Elektronik: Lebenszyklusanalyse elektronischer Produkte  |
+| KW 12       | Intelligente Stromnetze und Energiemanagement: Smart-Grid-Technologien                  |
+| KW 13       | Intelligente Stromnetze und Energiemanagement: Rolle bei der Optimierung der Energieverteilung |
+| KW 14       | Intelligente Stromnetze und Energiemanagement: Energiemanagementsysteme                 |
+| KW 15       | Intelligente Stromnetze und Energiemanagement: Effizienter Energieverbrauch             |
+| KW 16       | Test 4: Nachhaltige Materialien und Intelligente Stromnetze                             |
+| KW 17       | Grüne IKT: Umweltfreundliche Praktiken in Rechenzentren                                 |
+| KW 18       | Grüne IKT: Umweltfreundliche Computing-Infrastruktur                                    |
+| KW 19       | Grüne IKT: Energieeffiziente Netzwerkprotokolle                                         |
+| KW 21       | Grüne IKT: Energieeffiziente Geräte                                                     |
+| KW 22       | Projekt: Entwurf einer grünen Technologielösung (theoretisch)                           |
+| KW 23       | Projekt: Entwurf einer grünen Technologielösung (theoretisch)                           |
+| KW 25       | Projekt: Entwurf einer grünen Technologielösung (theoretisch)                           |
+| KW 26       | Projekt: Entwurf einer grünen Technologielösung (theoretisch)                           |
+| KW 27       | Projekt: Entwurf einer grünen Technologielösung (theoretisch)                           |

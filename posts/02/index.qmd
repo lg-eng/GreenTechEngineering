@@ -1,0 +1,10 @@
+---
+title: "02 Einführung in die Grüne Technologie: Überblick über Umweltprobleme"
+author: "Leopold Götsch"
+date: "2024-07-28"
+categories: [news]
+page-layout: article
+image: Team.jpeg
+---
+
+# Einführung in die Grüne Technologie: Überblick über Umweltprobleme
