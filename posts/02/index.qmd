@@ -4,7 +4,7 @@ author: "Leopold Götsch"
 date: "2024-07-28"
 categories: [news]
 page-layout: article
-image: Team.jpeg
+image: title_image.jpg
 ---
 
 # Einführung in die Grüne Technologie: Überblick über Umweltprobleme

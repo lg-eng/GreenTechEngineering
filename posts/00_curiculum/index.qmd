@@ -12,7 +12,7 @@ Hier finden Sie das  Curriculum für das Schwerpunktfach Green Tech Engineering.
 
 ### Jahr 1:
 
-#### Semester 1 (September bis Ende Januar):
+#### Semester 1:
 
 1. **Einführung in die Grüne Technologie** (Wochen 1-2)
    - Definition und Bedeutung von grüner Technologie.
@@ -30,7 +30,7 @@ Hier finden Sie das  Curriculum für das Schwerpunktfach Green Tech Engineering.
    - Niedrigenergieelektronik: Techniken und Designüberlegungen.
    - Energieeffiziente Komponenten und Schaltkreise.
 
-#### Semester 2 (Februar bis Ende Juni):
+#### Semester 2:
 
 5. **Nachhaltige Materialien in der Elektronik** (Wochen 1-4)
    - Einführung in nachhaltige Materialien und ihre Anwendungen in der Elektronik.
@@ -44,12 +44,12 @@ Hier finden Sie das  Curriculum für das Schwerpunktfach Green Tech Engineering.
    - Umweltfreundliche Praktiken in Rechenzentren und Computing-Infrastruktur.
    - Energieeffiziente Netzwerkprotokolle und Geräte.
 
-8. **Projekt: Entwurf einer grünen Technologielösung (theoretisch)** (Wochen 13-18)
+8. **Projekt: Entwurf einer grünen Technologielösung** (Wochen 13-18)
    - Die Schüler arbeiten in Gruppen, um eine theoretische grüne Technologielösung zu konzipieren und zu entwerfen, wobei sie die im Semester gelernten Prinzipien einbeziehen.
 
 ### Jahr 2:
 
-#### Semester 1 (September bis Ende Januar):
+#### Semester 1:
 
 1. **Umweltüberwachung und Sensoren** (Wochen 1-3)
    - Einführung in Umweltsensoren und Überwachungssysteme.
@@ -67,12 +67,7 @@ Hier finden Sie das  Curriculum für das Schwerpunktfach Green Tech Engineering.
    - Verständnis des Kreislaufwirtschaftsmodells.
    - Strategien zur Abfallreduzierung und Recyclingtechnologien.
 
-**Ferienzeiten:**
-- Herbstferien: 27.10. - 31.10.
-- Weihnachtsferien: 24.12. - 06.01.
-- Semesterferien: 12.02. - 18.02.
-
-#### Semester 2 (Februar bis Ende März):
+#### Semester 2:
 
 5. **Hybrid- und Elektrofahrzeuge** (Wochen 1-3)
    - Prinzipien der Elektrofahrzeugtechnologie.
@@ -86,7 +81,7 @@ Hier finden Sie das  Curriculum für das Schwerpunktfach Green Tech Engineering.
    - Überblick über Umweltpolitik und -vorschriften.
    - Ethikaspekte bei der Entwicklung grüner Technologien.
 
-8. **Abschlussprojekt: Implementierung und Präsentation (theoretisch)** (Wochen 9-10)
+8. **Abschlussprojekt: Implementierung und Präsentation** (Wochen 9-10)
    - Die Schüler setzen ihre in Jahr 1 entworfene grüne Technologielösung theoretisch um, dokumentieren ihren Prozess und präsentieren ihre Projektergebnisse vor der Klasse.
 
 

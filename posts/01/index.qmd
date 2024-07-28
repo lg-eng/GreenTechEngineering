@@ -13,7 +13,7 @@ Einführung in die Grüne Technologie: Definition und Bedeutung von grüner Tech
 
 ### 1. Begrüßung und Vorstellung
 - Kurze Vorstellung der Lehrkraft
-- [Überblick über den Unterrichtsplan und die Ziele des Faches](../curiculum/index.qmd)
+- [Überblick über den Unterrichtsplan und die Ziele des Faches](../00_curiculum/index.qmd)
 
 ### 2. Vorstellrunde der Schüler
 **Ablauf:**
