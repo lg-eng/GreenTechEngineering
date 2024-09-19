@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/03/index.html",
       "/posts/02/index.html",
       "/posts/01/index.html",
       "/posts/00_curiculum/index.html"
