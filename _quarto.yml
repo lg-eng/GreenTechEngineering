@@ -1,6 +1,7 @@
 project:
   type: website
 bibliography: references.bib
+csl: diabetologia.csl
 website:
   title: "GreenTechEngineering"
   navbar:

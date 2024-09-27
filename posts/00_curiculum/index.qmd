@@ -88,7 +88,13 @@ Hier finden Sie das  Curriculum für das Schwerpunktfach Green Tech Engineering.
 ## Lehrstoffverteilung im Detail
 ### Jahr 1 (4. Jahrgang)
 
+| Woche       | Thema                                                                                  |
+|-------------|----------------------------------------------------------------------------------------|
+| KW 37       | [Einführung in die Grüne Technologie: Definition und Bedeutung von grüner Technologie](../01/index.qmd)   |
+| KW 38       | [Einführung in die Grüne Technologie: Physikalische Grundlagen](../02/index.qmd)                      |
+| KW 39       | [Einführung in die Grüne Technologie: Überblick über Umweltprobleme](../03/index.qmd)                      |
 
+<!-- 
 | Woche       | Thema                                                                                  |
 |-------------|----------------------------------------------------------------------------------------|
 | KW 37       | [Einführung in die Grüne Technologie: Definition und Bedeutung von grüner Technologie](../01/index.qmd)   |
@@ -127,4 +133,4 @@ Hier finden Sie das  Curriculum für das Schwerpunktfach Green Tech Engineering.
 | KW 23       | Projekt: Entwurf einer grünen Technologielösung (theoretisch)                           |
 | KW 25       | Projekt: Entwurf einer grünen Technologielösung (theoretisch)                           |
 | KW 26       | Projekt: Entwurf einer grünen Technologielösung (theoretisch)                           |
-| KW 27       | Projekt: Entwurf einer grünen Technologielösung (theoretisch)                           |
+| KW 27       | Projekt: Entwurf einer grünen Technologielösung (theoretisch)                           | -->

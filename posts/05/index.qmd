@@ -1,0 +1,71 @@
+---
+title: "05 Erneuerbare Energiequellen: Photovoltaik"
+author: "Leopold Götsch"
+date: "2024-10-01"
+categories: [news]
+page-layout: article
+image: title_image.jpeg
+draft: false
+format:
+  html:
+    toc: true
+    math: true
+    number-sections: true
+---
+
+
+<!-- https://pvaustria.at/technische-grundlagen/
+https://pvaustria.at/daten-fakten/  -->
+
+
+# Marktanteil der Photovoltaik an der Stromerzeugung  
+
+Die Photovoltaik ist eine der wichtigsten erneuerbaren Energiequellen und hat in den letzten Jahren einen starken Zuwachs an Bedeutung erfahren.   
+In Österreich beträgt der Anteil der Photovoltaik an der Stromerzeugung rund 10% @InEnMarkt2023, Seite 28. 
+Die durchschnittlichen Kosten für Photovoltaikanlagen in Österreich lagen im Jahr 2023 bei 1.699 Euro pro Kilowattpeak (kWp) netto @InEnMarkt2023, Seite 28.
+
+# Kennzahlen der Photovoltaik
+
+## Einheiten
+- **Wattpeak (Wp)**: Die Leistung einer Photovoltaikanlage wird in Kilowattpeak (kWp) gemessen und gibt die Spitzenleistung der Photovoltaik Anlage an.
+
+- **Watt (W)**: Die Leistung einer Photovoltaikanlage wird in Watt (W) gemessen und gibt die momentane Leistung der Photovoltaik Anlage an.
+
+- **Kilowattstunde (kWh)**: Die Kilowattstunde ist eine Einheit für elektrische Energie und gibt an, wie viel Energie eine Photovoltaikanlage pro Zeiteinheit erzeugen kann.
+
+- **Euro pro Kilowattpeak (€/kWp)**: Die Investitionskosten für eine Photovoltaikanlage werden in Euro pro Kilowattpeak (€/kWp) angegeben.
+
+- **Jahresertrag (kWh/kWp)**: Der Jahresertrag einer Photovoltaikanlage gibt an, wie viel elektrische Energie sie pro Kilowattpeak und Jahr erzeugen kann.
+
+
+## Kennzahlen der Photovoltaik
+
+- **Wirkungsgrad**: Der Wirkungsgrad einer Photovoltaikanlage gibt an, wie effizient sie Sonnenlicht in elektrische Energie umwandeln kann. Moderne Solarzellen haben einen Wirkungsgrad von bis zu 22%.
+
+- **Installierte Leistung**: Die Installierte Leistung einer Photovoltaikanlage wird in Kilowattpeak (kWp) gemessen und gibt an, wie viel Leistung die Anlage maximal erzeugen kann.
+
+- **Ertrag**: Der Ertrag einer Photovoltaikanlage wird in Kilowattstunden (kWh) gemessen und gibt an, wie viel elektrische Energie die Anlage pro Zeiteinheit erzeugt hat.
+
+- **Investitionskosten**: Die Investitionskosten geben an wie viel die Anlage pro Kilowattpeak (kWp) gekostet hat. 
+
+- **Amortisationszeit**: Die Amortisationszeit einer Photovoltaikanlage gibt an, wie lange es dauert, bis die Investitionskosten durch die eingesparten Stromkosten und die Einspeisevergütung abgedeckt sind.
+
+# Komponenten einer Photovoltaikanlage  
+
+## Solarzellen  
+Solarzellen bestehen aus Halbleitermaterialien wie Silizium, die Sonnenlicht in elektrische Energie umwandeln. Die gängigsten Solarzellen sind monokristalline und polykristalline Zellen, die in Modulen verbaut werden.
+
+## Wechselrichter  
+Wechselrichter wandeln den erzeugten Gleichstrom der Solarzellen in Wechselstrom um, der im Stromnetz genutzt werden kann. Moderne Wechselrichter verfügen über intelligente Steuerungssysteme und Monitoringfunktionen.
+
+## Montagesystem  
+Das Montagesystem dient zur Befestigung der Solarmodule auf dem Dach oder dem Boden. Es muss stabil, wetterfest und optimal ausgerichtet sein, um eine effiziente Energieerzeugung zu gewährleisten.
+
+## Verkabelung und Anschluss  
+Die Verkabelung verbindet die Solarzellen, Wechselrichter und weitere Komponenten miteinander. Der Anschluss an das Stromnetz erfolgt über einen Wechselrichter und einen Zähler, der die eingespeiste Energie erfasst.
+
+## Überwachungs- und Steuerungssystem  
+Ein Monitoring-System überwacht die Leistung der Photovoltaikanlage und informiert den Betreiber über den Energieertrag, mögliche Störungen oder Wartungsbedarf. Moderne Anlagen können über Apps oder Online-Plattformen gesteuert und optimiert werden.
+
+# Auslegung einer Photovoltaikanlage
+

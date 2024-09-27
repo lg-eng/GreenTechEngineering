@@ -16,11 +16,10 @@ Einführung in die Grüne Technologie: Definition und Bedeutung von grüner Tech
 - [Überblick über den Unterrichtsplan und die Ziele des Faches](../00_curiculum/index.qmd)
 
 ### 2. Vorstellrunde der Schüler
-**Ablauf:**
-1. Jeder Schüler stellt sich kurz vor:
-   - Name
-   - Warum sie sich für Green Tech Engineering interessieren
-   - Eine grüne Technologie, die sie beeindruckend finden oder von der sie gehört haben
+**Ablauf:**    
+   - Name  
+   - Warum sie sich für Green Tech Engineering interessieren  
+   - Eine grüne Technologie, die sie beeindruckend finden oder von der sie gehört haben  
 
 ### 3. Einführung in die Grüne Technologie
 #### Definition von Green Tech Engineering
@@ -61,15 +60,15 @@ Green Tech Engineering, ist in der heutigen Welt von entscheidender Bedeutung au
 Insgesamt ist Green Tech Engineering von großer Bedeutung, da es nicht nur dazu beiträgt, Umweltprobleme anzugehen, sondern auch wirtschaftliche, gesundheitliche und soziale Vorteile bietet, während es auf eine nachhaltige und verantwortungsbewusste Art und Weise Innovation fördert.
 
 #### 4. Gruppenarbeit: Brainstorming zu grünen Technologien
-**Ablauf:**
-- Aufteilung in kleine Gruppen (3-4 Schüler)
-- Jede Gruppe arbeitet eine OneNote Seite aus.
-- Aufgabenstellung:
-  1. Denken Sie an verschiedene grüne Technologien.
-  2. Schreiben Sie auf, was diese Technologien umweltfreundlich macht.
-  3. Wählen Sie eine Technologie aus, die Sie besonders interessant findet und bereitet eine kurze Präsentation vor.
+**Ablauf:**  
+- Aufteilung in kleine Gruppen (3-4 Schüler)  
+- Jede Gruppe arbeitet eine OneNote Seite aus.  
+- Aufgabenstellung:    
+   1. Denken Sie an verschiedene grüne Technologien.  
+   2. Schreiben Sie auf, was diese Technologien umweltfreundlich macht.  
+   3. Wählen Sie eine Technologie aus, die Sie besonders interessant findet und bereitet eine kurze Präsentation vor.  
 
-**Präsentation der Ergebnisse:**
+**Präsentation der Ergebnisse:**  
 - Jede Gruppe präsentiert ihre ausgewählte Technologie und erläutert, warum sie umweltfreundlich ist (ca. 2-3 Minuten pro Gruppe).
 
 

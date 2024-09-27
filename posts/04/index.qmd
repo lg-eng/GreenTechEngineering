@@ -1,0 +1,70 @@
+---
+title: "04 Erneuerbare Energiequellen: Übersicht"
+author: "Leopold Götsch"
+date: "2024-09-26"
+categories: [news]
+page-layout: article
+image: title_image.jpeg
+draft: false
+format:
+  html:
+    toc: true
+    math: true
+    number-sections: true
+---
+
+# Overview of Renewable Energy Sources
+
+Renewable energy sources are essential for a sustainable future, providing clean, abundant, and reliable alternatives to fossil fuels. Here is an overview of the main renewable energy sources and their applications.  
+The list does not claim to be exhaustive but provides an overview of the most common and promising renewable energy technologies.
+
+## Solar Energy
+   - Photovoltaic (PV) Systems: Solar panels convert sunlight into electricity through the photovoltaic effect. PV systems are widely used in residential, commercial, and utility-scale applications to generate clean energy.
+   - Concentrated Solar Power (CSP): CSP systems use mirrors or lenses to concentrate sunlight onto a receiver, which converts solar energy into heat. The heat is then used to generate electricity through a steam turbine or heat engine.
+   - Solar Water Heating: Solar thermal collectors capture sunlight to heat water for residential, commercial, or industrial use. Solar water heating systems can reduce energy costs and carbon emissions associated with water heating.
+
+## Wind Energy
+   - Onshore Wind Turbines: Wind turbines convert wind energy into electricity through the rotation of turbine blades. Onshore wind farms are installed on land and are a cost-effective solution for renewable power generation.
+   - Offshore Wind Turbines: Offshore wind farms are located in bodies of water, where wind speeds are typically higher and more consistent. Offshore wind turbines can generate more electricity than onshore turbines but require additional infrastructure and maintenance.
+
+## Hydropower
+   - Conventional Hydropower: Hydropower plants use the energy of flowing water to generate electricity. Water is stored in reservoirs or diverted through turbines to produce mechanical energy, which is then converted into electricity.
+   - Pumped Storage Hydropower: Pumped storage plants store excess electricity by pumping water to a higher reservoir during periods of low demand. When electricity demand is high, water is released to generate power through turbines.
+
+## Biomass Energy
+   - Bioenergy: Biomass energy is derived from organic materials such as wood, agricultural residues, and waste. Bioenergy can be used for heating, electricity generation, and transportation fuels, providing a renewable alternative to fossil fuels.
+   - Biogas: Biogas is produced through the anaerobic digestion of organic waste, such as food scraps and manure. Biogas can be used for cooking, heating, and electricity generation, reducing methane emissions from landfills and livestock operations.
+
+## Geothermal Energy
+   - Geothermal Power Plants: Geothermal energy is harnessed from the heat of the Earth's crust to generate electricity. Geothermal power plants use steam or hot water from underground reservoirs to drive turbines and produce clean, baseload power.
+   - Geothermal Heat Pumps: Geothermal heat pumps use the stable temperature of the ground to heat and cool buildings efficiently. Ground-source heat pumps transfer heat between the ground and a building to provide space heating, cooling, and hot water.
+
+**Technologies under development or not yet fully commercialized:**
+
+## Ocean Energy
+   - Wave Energy: Wave energy converters capture the kinetic energy of ocean waves to generate electricity. Wave energy is a promising renewable resource with the potential to provide clean power to coastal regions.
+   - Tidal Energy: Tidal turbines harness the energy of tidal currents to generate electricity. Tidal energy is predictable and reliable, making it a valuable source of renewable power for coastal communities.
+
+
+## Hydrogen Energy
+   - Green Hydrogen: Green hydrogen is produced through the electrolysis of water using renewable electricity. Electrolyzers split water into hydrogen and oxygen, producing a clean fuel that can be used for transportation, energy storage, and industrial applications.  
+
+## Nuclear Fusion
+   - Fusion Reactors: Nuclear fusion is a clean and abundant energy source that replicates the process that powers the sun. Fusion reactors use hydrogen isotopes to generate energy through nuclear fusion, producing minimal waste and no greenhouse gas emissions. Fusion energy has the potential to provide a safe and sustainable energy supply for the future.
+
+## Biofuels
+   - Bioethanol: Bioethanol is a renewable fuel produced from biomass feedstocks such as corn, sugarcane, and cellulosic materials. Bioethanol can be blended with gasoline to reduce greenhouse gas emissions from transportation and provide a sustainable alternative to fossil fuels.
+
+## Hydrogen Fuel Cells
+   - Fuel Cell Vehicles: Hydrogen fuel cells convert hydrogen gas into electricity through an electrochemical process, powering vehicles with zero emissions. Fuel cell vehicles offer a clean alternative to internal combustion engines and can help reduce air pollution and dependence on fossil fuels.
+
+## Solar Fuels
+   - Artificial Photosynthesis: Solar fuels are produced through artificial photosynthesis, a process that mimics natural photosynthesis to convert sunlight, water, and carbon dioxide into fuels such as hydrogen and hydrocarbons. Solar fuels offer a sustainable energy storage solution for renewable power systems.
+
+# Assignment
+Sort the renewable energy sources into the following categories and provide reliable sources for each category:  
+- World wide contribution to energy supply  
+- State of development  
+Feel free to list other renewable energy sources that are not mentioned in the text but are of interest to you.
+
+Present your results in a table format.
