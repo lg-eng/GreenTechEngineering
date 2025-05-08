@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Leopold Götsch">
-<meta name="dcterms.date" content="2024-09-26">
+<meta name="dcterms.date" content="2024-10-01">
 
-<title>GreenTechEngineering - 04 Erneuerbare Energiequellen: Photovoltaik</title>
+<title>GreenTechEngineering - 05 Erneuerbare Energiequellen: Photovoltaik</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,7 +22,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -139,7 +158,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">04 Erneuerbare Energiequellen: Photovoltaik</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">05 Erneuerbare Energiequellen: Photovoltaik</li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -152,7 +171,7 @@ window.Quarto = {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">04 Erneuerbare Energiequellen: Photovoltaik</h1>
+      <h1 class="title">05 Erneuerbare Energiequellen: Photovoltaik</h1>
                                 <div class="quarto-categories">
                 <div class="quarto-category">news</div>
               </div>
@@ -172,7 +191,7 @@ window.Quarto = {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">September 26, 2024</p>
+        <p class="date">October 1, 2024</p>
       </div>
     </div>
     
@@ -196,21 +215,21 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#overview-of-renewable-energy-sources" id="toc-overview-of-renewable-energy-sources" class="nav-link active" data-scroll-target="#overview-of-renewable-energy-sources"><span class="header-section-number">1</span> Overview of Renewable Energy Sources</a>
+  <li><a href="#marktanteil-der-photovoltaik-an-der-stromerzeugung" id="toc-marktanteil-der-photovoltaik-an-der-stromerzeugung" class="nav-link active" data-scroll-target="#marktanteil-der-photovoltaik-an-der-stromerzeugung"><span class="header-section-number">1</span> Marktanteil der Photovoltaik an der Stromerzeugung</a></li>
+  <li><a href="#kennzahlen-der-photovoltaik" id="toc-kennzahlen-der-photovoltaik" class="nav-link" data-scroll-target="#kennzahlen-der-photovoltaik"><span class="header-section-number">2</span> Kennzahlen der Photovoltaik</a>
   <ul class="collapse">
-  <li><a href="#solar-energy" id="toc-solar-energy" class="nav-link" data-scroll-target="#solar-energy"><span class="header-section-number">1.1</span> Solar Energy</a></li>
-  <li><a href="#wind-energy" id="toc-wind-energy" class="nav-link" data-scroll-target="#wind-energy"><span class="header-section-number">1.2</span> Wind Energy</a></li>
-  <li><a href="#hydropower" id="toc-hydropower" class="nav-link" data-scroll-target="#hydropower"><span class="header-section-number">1.3</span> Hydropower</a></li>
-  <li><a href="#biomass-energy" id="toc-biomass-energy" class="nav-link" data-scroll-target="#biomass-energy"><span class="header-section-number">1.4</span> Biomass Energy</a></li>
-  <li><a href="#geothermal-energy" id="toc-geothermal-energy" class="nav-link" data-scroll-target="#geothermal-energy"><span class="header-section-number">1.5</span> Geothermal Energy</a></li>
-  <li><a href="#ocean-energy" id="toc-ocean-energy" class="nav-link" data-scroll-target="#ocean-energy"><span class="header-section-number">1.6</span> Ocean Energy</a></li>
-  <li><a href="#hydrogen-energy" id="toc-hydrogen-energy" class="nav-link" data-scroll-target="#hydrogen-energy"><span class="header-section-number">1.7</span> Hydrogen Energy</a></li>
-  <li><a href="#nuclear-fusion" id="toc-nuclear-fusion" class="nav-link" data-scroll-target="#nuclear-fusion"><span class="header-section-number">1.8</span> Nuclear Fusion</a></li>
-  <li><a href="#biofuels" id="toc-biofuels" class="nav-link" data-scroll-target="#biofuels"><span class="header-section-number">1.9</span> Biofuels</a></li>
-  <li><a href="#hydrogen-fuel-cells" id="toc-hydrogen-fuel-cells" class="nav-link" data-scroll-target="#hydrogen-fuel-cells"><span class="header-section-number">1.10</span> Hydrogen Fuel Cells</a></li>
-  <li><a href="#solar-fuels" id="toc-solar-fuels" class="nav-link" data-scroll-target="#solar-fuels"><span class="header-section-number">1.11</span> Solar Fuels</a></li>
+  <li><a href="#einheiten" id="toc-einheiten" class="nav-link" data-scroll-target="#einheiten"><span class="header-section-number">2.1</span> Einheiten</a></li>
+  <li><a href="#kennzahlen-der-photovoltaik-1" id="toc-kennzahlen-der-photovoltaik-1" class="nav-link" data-scroll-target="#kennzahlen-der-photovoltaik-1"><span class="header-section-number">2.2</span> Kennzahlen der Photovoltaik</a></li>
   </ul></li>
-  <li><a href="#assignment" id="toc-assignment" class="nav-link" data-scroll-target="#assignment"><span class="header-section-number">2</span> Assignment</a></li>
+  <li><a href="#komponenten-einer-photovoltaikanlage" id="toc-komponenten-einer-photovoltaikanlage" class="nav-link" data-scroll-target="#komponenten-einer-photovoltaikanlage"><span class="header-section-number">3</span> Komponenten einer Photovoltaikanlage</a>
+  <ul class="collapse">
+  <li><a href="#solarzellen" id="toc-solarzellen" class="nav-link" data-scroll-target="#solarzellen"><span class="header-section-number">3.1</span> Solarzellen</a></li>
+  <li><a href="#wechselrichter" id="toc-wechselrichter" class="nav-link" data-scroll-target="#wechselrichter"><span class="header-section-number">3.2</span> Wechselrichter</a></li>
+  <li><a href="#montagesystem" id="toc-montagesystem" class="nav-link" data-scroll-target="#montagesystem"><span class="header-section-number">3.3</span> Montagesystem</a></li>
+  <li><a href="#verkabelung-und-anschluss" id="toc-verkabelung-und-anschluss" class="nav-link" data-scroll-target="#verkabelung-und-anschluss"><span class="header-section-number">3.4</span> Verkabelung und Anschluss</a></li>
+  <li><a href="#überwachungs--und-steuerungssystem" id="toc-überwachungs--und-steuerungssystem" class="nav-link" data-scroll-target="#überwachungs--und-steuerungssystem"><span class="header-section-number">3.5</span> Überwachungs- und Steuerungssystem</a></li>
+  </ul></li>
+  <li><a href="#auslegung-einer-photovoltaikanlage" id="toc-auslegung-einer-photovoltaikanlage" class="nav-link" data-scroll-target="#auslegung-einer-photovoltaikanlage"><span class="header-section-number">4</span> Auslegung einer Photovoltaikanlage</a></li>
   </ul>
 </nav>
     </div>
@@ -221,96 +240,72 @@ window.Quarto = {
 
 
 
-<section id="overview-of-renewable-energy-sources" class="level1" data-number="1">
-<h1 data-number="1"><span class="header-section-number">1</span> Overview of Renewable Energy Sources</h1>
-<p>Renewable energy sources are essential for a sustainable future, providing clean, abundant, and reliable alternatives to fossil fuels. Here is an overview of the main renewable energy sources and their applications.<br>
-The list does not claim to be exhaustive but provides an overview of the most common and promising renewable energy technologies.</p>
-<section id="solar-energy" class="level2" data-number="1.1">
-<h2 data-number="1.1" class="anchored" data-anchor-id="solar-energy"><span class="header-section-number">1.1</span> Solar Energy</h2>
+<!-- https://pvaustria.at/technische-grundlagen/
+https://pvaustria.at/daten-fakten/  -->
+<section id="marktanteil-der-photovoltaik-an-der-stromerzeugung" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Marktanteil der Photovoltaik an der Stromerzeugung</h1>
+<p>Die Photovoltaik ist eine der wichtigsten erneuerbaren Energiequellen und hat in den letzten Jahren einen starken Zuwachs an Bedeutung erfahren.<br>
+In Österreich beträgt der Anteil der Photovoltaik an der Stromerzeugung rund 10% <span class="citation" data-cites="InEnMarkt2023">[<a href="#ref-InEnMarkt2023" role="doc-biblioref">1</a>]</span>, Seite 28. Die durchschnittlichen Kosten für Photovoltaikanlagen in Österreich lagen im Jahr 2023 bei 1.699 Euro pro Kilowattpeak (kWp) netto <span class="citation" data-cites="InEnMarkt2023">[<a href="#ref-InEnMarkt2023" role="doc-biblioref">1</a>]</span>, Seite 28.</p>
+</section>
+<section id="kennzahlen-der-photovoltaik" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> Kennzahlen der Photovoltaik</h1>
+<section id="einheiten" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="einheiten"><span class="header-section-number">2.1</span> Einheiten</h2>
 <ul>
-<li>Photovoltaic (PV) Systems: Solar panels convert sunlight into electricity through the photovoltaic effect. PV systems are widely used in residential, commercial, and utility-scale applications to generate clean energy.</li>
-<li>Concentrated Solar Power (CSP): CSP systems use mirrors or lenses to concentrate sunlight onto a receiver, which converts solar energy into heat. The heat is then used to generate electricity through a steam turbine or heat engine.</li>
-<li>Solar Water Heating: Solar thermal collectors capture sunlight to heat water for residential, commercial, or industrial use. Solar water heating systems can reduce energy costs and carbon emissions associated with water heating.</li>
+<li><p><strong>Wattpeak (Wp)</strong>: Die Leistung einer Photovoltaikanlage wird in Kilowattpeak (kWp) gemessen und gibt die Spitzenleistung der Photovoltaik Anlage an.</p></li>
+<li><p><strong>Watt (W)</strong>: Die Leistung einer Photovoltaikanlage wird in Watt (W) gemessen und gibt die momentane Leistung der Photovoltaik Anlage an.</p></li>
+<li><p><strong>Kilowattstunde (kWh)</strong>: Die Kilowattstunde ist eine Einheit für elektrische Energie und gibt an, wie viel Energie eine Photovoltaikanlage pro Zeiteinheit erzeugen kann.</p></li>
+<li><p><strong>Euro pro Kilowattpeak (€/kWp)</strong>: Die Investitionskosten für eine Photovoltaikanlage werden in Euro pro Kilowattpeak (€/kWp) angegeben.</p></li>
+<li><p><strong>Jahresertrag (kWh/kWp)</strong>: Der Jahresertrag einer Photovoltaikanlage gibt an, wie viel elektrische Energie sie pro Kilowattpeak und Jahr erzeugen kann.</p></li>
 </ul>
 </section>
-<section id="wind-energy" class="level2" data-number="1.2">
-<h2 data-number="1.2" class="anchored" data-anchor-id="wind-energy"><span class="header-section-number">1.2</span> Wind Energy</h2>
+<section id="kennzahlen-der-photovoltaik-1" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="kennzahlen-der-photovoltaik-1"><span class="header-section-number">2.2</span> Kennzahlen der Photovoltaik</h2>
 <ul>
-<li>Onshore Wind Turbines: Wind turbines convert wind energy into electricity through the rotation of turbine blades. Onshore wind farms are installed on land and are a cost-effective solution for renewable power generation.</li>
-<li>Offshore Wind Turbines: Offshore wind farms are located in bodies of water, where wind speeds are typically higher and more consistent. Offshore wind turbines can generate more electricity than onshore turbines but require additional infrastructure and maintenance.</li>
-</ul>
-</section>
-<section id="hydropower" class="level2" data-number="1.3">
-<h2 data-number="1.3" class="anchored" data-anchor-id="hydropower"><span class="header-section-number">1.3</span> Hydropower</h2>
-<ul>
-<li>Conventional Hydropower: Hydropower plants use the energy of flowing water to generate electricity. Water is stored in reservoirs or diverted through turbines to produce mechanical energy, which is then converted into electricity.</li>
-<li>Pumped Storage Hydropower: Pumped storage plants store excess electricity by pumping water to a higher reservoir during periods of low demand. When electricity demand is high, water is released to generate power through turbines.</li>
-</ul>
-</section>
-<section id="biomass-energy" class="level2" data-number="1.4">
-<h2 data-number="1.4" class="anchored" data-anchor-id="biomass-energy"><span class="header-section-number">1.4</span> Biomass Energy</h2>
-<ul>
-<li>Bioenergy: Biomass energy is derived from organic materials such as wood, agricultural residues, and waste. Bioenergy can be used for heating, electricity generation, and transportation fuels, providing a renewable alternative to fossil fuels.</li>
-<li>Biogas: Biogas is produced through the anaerobic digestion of organic waste, such as food scraps and manure. Biogas can be used for cooking, heating, and electricity generation, reducing methane emissions from landfills and livestock operations.</li>
-</ul>
-</section>
-<section id="geothermal-energy" class="level2" data-number="1.5">
-<h2 data-number="1.5" class="anchored" data-anchor-id="geothermal-energy"><span class="header-section-number">1.5</span> Geothermal Energy</h2>
-<ul>
-<li>Geothermal Power Plants: Geothermal energy is harnessed from the heat of the Earth’s crust to generate electricity. Geothermal power plants use steam or hot water from underground reservoirs to drive turbines and produce clean, baseload power.</li>
-<li>Geothermal Heat Pumps: Geothermal heat pumps use the stable temperature of the ground to heat and cool buildings efficiently. Ground-source heat pumps transfer heat between the ground and a building to provide space heating, cooling, and hot water.</li>
-</ul>
-<p><strong>Technologies under development or not yet fully commercialized:</strong></p>
-</section>
-<section id="ocean-energy" class="level2" data-number="1.6">
-<h2 data-number="1.6" class="anchored" data-anchor-id="ocean-energy"><span class="header-section-number">1.6</span> Ocean Energy</h2>
-<ul>
-<li>Wave Energy: Wave energy converters capture the kinetic energy of ocean waves to generate electricity. Wave energy is a promising renewable resource with the potential to provide clean power to coastal regions.</li>
-<li>Tidal Energy: Tidal turbines harness the energy of tidal currents to generate electricity. Tidal energy is predictable and reliable, making it a valuable source of renewable power for coastal communities.</li>
-</ul>
-</section>
-<section id="hydrogen-energy" class="level2" data-number="1.7">
-<h2 data-number="1.7" class="anchored" data-anchor-id="hydrogen-energy"><span class="header-section-number">1.7</span> Hydrogen Energy</h2>
-<ul>
-<li>Green Hydrogen: Green hydrogen is produced through the electrolysis of water using renewable electricity. Electrolyzers split water into hydrogen and oxygen, producing a clean fuel that can be used for transportation, energy storage, and industrial applications.</li>
-</ul>
-</section>
-<section id="nuclear-fusion" class="level2" data-number="1.8">
-<h2 data-number="1.8" class="anchored" data-anchor-id="nuclear-fusion"><span class="header-section-number">1.8</span> Nuclear Fusion</h2>
-<ul>
-<li>Fusion Reactors: Nuclear fusion is a clean and abundant energy source that replicates the process that powers the sun. Fusion reactors use hydrogen isotopes to generate energy through nuclear fusion, producing minimal waste and no greenhouse gas emissions. Fusion energy has the potential to provide a safe and sustainable energy supply for the future.</li>
-</ul>
-</section>
-<section id="biofuels" class="level2" data-number="1.9">
-<h2 data-number="1.9" class="anchored" data-anchor-id="biofuels"><span class="header-section-number">1.9</span> Biofuels</h2>
-<ul>
-<li>Bioethanol: Bioethanol is a renewable fuel produced from biomass feedstocks such as corn, sugarcane, and cellulosic materials. Bioethanol can be blended with gasoline to reduce greenhouse gas emissions from transportation and provide a sustainable alternative to fossil fuels.</li>
-</ul>
-</section>
-<section id="hydrogen-fuel-cells" class="level2" data-number="1.10">
-<h2 data-number="1.10" class="anchored" data-anchor-id="hydrogen-fuel-cells"><span class="header-section-number">1.10</span> Hydrogen Fuel Cells</h2>
-<ul>
-<li>Fuel Cell Vehicles: Hydrogen fuel cells convert hydrogen gas into electricity through an electrochemical process, powering vehicles with zero emissions. Fuel cell vehicles offer a clean alternative to internal combustion engines and can help reduce air pollution and dependence on fossil fuels.</li>
-</ul>
-</section>
-<section id="solar-fuels" class="level2" data-number="1.11">
-<h2 data-number="1.11" class="anchored" data-anchor-id="solar-fuels"><span class="header-section-number">1.11</span> Solar Fuels</h2>
-<ul>
-<li>Artificial Photosynthesis: Solar fuels are produced through artificial photosynthesis, a process that mimics natural photosynthesis to convert sunlight, water, and carbon dioxide into fuels such as hydrogen and hydrocarbons. Solar fuels offer a sustainable energy storage solution for renewable power systems.</li>
+<li><p><strong>Wirkungsgrad</strong>: Der Wirkungsgrad einer Photovoltaikanlage gibt an, wie effizient sie Sonnenlicht in elektrische Energie umwandeln kann. Moderne Solarzellen haben einen Wirkungsgrad von bis zu 22%.</p></li>
+<li><p><strong>Installierte Leistung</strong>: Die Installierte Leistung einer Photovoltaikanlage wird in Kilowattpeak (kWp) gemessen und gibt an, wie viel Leistung die Anlage maximal erzeugen kann.</p></li>
+<li><p><strong>Ertrag</strong>: Der Ertrag einer Photovoltaikanlage wird in Kilowattstunden (kWh) gemessen und gibt an, wie viel elektrische Energie die Anlage pro Zeiteinheit erzeugt hat.</p></li>
+<li><p><strong>Investitionskosten</strong>: Die Investitionskosten geben an wie viel die Anlage pro Kilowattpeak (kWp) gekostet hat.</p></li>
+<li><p><strong>Amortisationszeit</strong>: Die Amortisationszeit einer Photovoltaikanlage gibt an, wie lange es dauert, bis die Investitionskosten durch die eingesparten Stromkosten und die Einspeisevergütung abgedeckt sind.</p></li>
 </ul>
 </section>
 </section>
-<section id="assignment" class="level1" data-number="2">
-<h1 data-number="2"><span class="header-section-number">2</span> Assignment</h1>
-<p>Sort the renewable energy sources into the following categories and provide reliable sources for each category: - World wide contribution to energy supply<br>
-- State of development</p>
-<p>Present your results in a table format.</p>
+<section id="komponenten-einer-photovoltaikanlage" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> Komponenten einer Photovoltaikanlage</h1>
+<section id="solarzellen" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="solarzellen"><span class="header-section-number">3.1</span> Solarzellen</h2>
+<p>Solarzellen bestehen aus Halbleitermaterialien wie Silizium, die Sonnenlicht in elektrische Energie umwandeln. Die gängigsten Solarzellen sind monokristalline und polykristalline Zellen, die in Modulen verbaut werden.</p>
+</section>
+<section id="wechselrichter" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="wechselrichter"><span class="header-section-number">3.2</span> Wechselrichter</h2>
+<p>Wechselrichter wandeln den erzeugten Gleichstrom der Solarzellen in Wechselstrom um, der im Stromnetz genutzt werden kann. Moderne Wechselrichter verfügen über intelligente Steuerungssysteme und Monitoringfunktionen.</p>
+</section>
+<section id="montagesystem" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="montagesystem"><span class="header-section-number">3.3</span> Montagesystem</h2>
+<p>Das Montagesystem dient zur Befestigung der Solarmodule auf dem Dach oder dem Boden. Es muss stabil, wetterfest und optimal ausgerichtet sein, um eine effiziente Energieerzeugung zu gewährleisten.</p>
+</section>
+<section id="verkabelung-und-anschluss" class="level2" data-number="3.4">
+<h2 data-number="3.4" class="anchored" data-anchor-id="verkabelung-und-anschluss"><span class="header-section-number">3.4</span> Verkabelung und Anschluss</h2>
+<p>Die Verkabelung verbindet die Solarzellen, Wechselrichter und weitere Komponenten miteinander. Der Anschluss an das Stromnetz erfolgt über einen Wechselrichter und einen Zähler, der die eingespeiste Energie erfasst.</p>
+</section>
+<section id="überwachungs--und-steuerungssystem" class="level2" data-number="3.5">
+<h2 data-number="3.5" class="anchored" data-anchor-id="überwachungs--und-steuerungssystem"><span class="header-section-number">3.5</span> Überwachungs- und Steuerungssystem</h2>
+<p>Ein Monitoring-System überwacht die Leistung der Photovoltaikanlage und informiert den Betreiber über den Energieertrag, mögliche Störungen oder Wartungsbedarf. Moderne Anlagen können über Apps oder Online-Plattformen gesteuert und optimiert werden.</p>
+</section>
+</section>
+<section id="auslegung-einer-photovoltaikanlage" class="level1" data-number="4">
+<h1 data-number="4"><span class="header-section-number">4</span> Auslegung einer Photovoltaikanlage</h1>
+
 
 
 
 </section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body" role="list">
+<div id="ref-InEnMarkt2023" class="csl-entry" role="listitem">
+<div class="csl-left-margin">1. </div><div class="csl-right-inline">Biermayr P, Aigenbauer S, Dißauer C, et al (2024) <span class="nocase">Innovative Energietechnologien in Österreich Marktentwicklung 2023</span>. <a href="https://nachhaltigwirtschaften.at/resources/nw_pdf/schriftenreihe-2024-17a-marktbericht-energietechnologien-lf_bf.pdf">https://nachhaltigwirtschaften.at/resources/nw_pdf/schriftenreihe-2024-17a-marktbericht-energietechnologien-lf_bf.pdf</a>. Accessed 27 Sep 2024</div>
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
