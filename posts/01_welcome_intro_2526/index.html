@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Leopold Götsch">
+<meta name="dcterms.date" content="2025-09-08">
 
-<title>readme – GreenTechEngineering</title>
+<title>01 Welcome to Green Tech Engineering! 2025/26 – GreenTechEngineering</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +25,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-43081d808c96cc46af55a3a816ae9eed.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-43081d808c96cc46af55a3a816ae9eed.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,20 +71,49 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="styles.css">
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-sidebar docked nav-fixed fullcontent quarto-light">
+<body class="nav-sidebar docked nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">GreenTechEngineering</span>
     </a>
   </div>
@@ -93,7 +124,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
@@ -112,7 +143,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">01 Welcome to Green Tech Engineering! 2025/26</li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -122,11 +153,42 @@ ul.task-list li input[type="checkbox"] {
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">01 Welcome to Green Tech Engineering! 2025/26</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">news</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Leopold Götsch </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">September 8, 2025</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
-      <a href="./index.html" class="sidebar-logo-link">
+      <a href="../../index.html" class="sidebar-logo-link">
       </a>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -137,16 +199,86 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#organisatorisches" id="toc-organisatorisches" class="nav-link active" data-scroll-target="#organisatorisches"><span class="header-section-number">1</span> Organisatorisches</a></li>
+  <li><a href="#vorstellrunde" id="toc-vorstellrunde" class="nav-link" data-scroll-target="#vorstellrunde"><span class="header-section-number">2</span> Vorstellrunde</a></li>
+  <li><a href="#einführung-in-die-grüne-technologie" id="toc-einführung-in-die-grüne-technologie" class="nav-link" data-scroll-target="#einführung-in-die-grüne-technologie"><span class="header-section-number">3</span> Einführung in die Grüne Technologie</a>
+  <ul class="collapse">
+  <li><a href="#definition-von-green-tech-engineering" id="toc-definition-von-green-tech-engineering" class="nav-link" data-scroll-target="#definition-von-green-tech-engineering"><span class="header-section-number">3.1</span> Definition von Green Tech Engineering</a></li>
+  <li><a href="#beispiele" id="toc-beispiele" class="nav-link" data-scroll-target="#beispiele"><span class="header-section-number">3.2</span> Beispiele</a></li>
+  <li><a href="#motivation" id="toc-motivation" class="nav-link" data-scroll-target="#motivation"><span class="header-section-number">3.3</span> Motivation</a></li>
+  <li><a href="#gruppenarbeit-brainstorming-zu-grünen-technologien" id="toc-gruppenarbeit-brainstorming-zu-grünen-technologien" class="nav-link" data-scroll-target="#gruppenarbeit-brainstorming-zu-grünen-technologien"><span class="header-section-number">3.4</span> Gruppenarbeit: Brainstorming zu grünen Technologien</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
-<p><a href="https://lg-eng.github.io/GreenTechEngineering/">https://lg-eng.github.io/GreenTechEngineering/</a></p>
+
+<section id="organisatorisches" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Organisatorisches</h1>
+<ul>
+<li>Teams</li>
+<li>OneNote</li>
+</ul>
+</section>
+<section id="vorstellrunde" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> Vorstellrunde</h1>
+<p><strong>Ablauf:</strong><br>
+- Name<br>
+- Warum Sie sich für Green Tech Engineering interessieren<br>
+- Eine grüne Technologie, die sie beeindruckend finden oder von der sie gehört haben</p>
+</section>
+<section id="einführung-in-die-grüne-technologie" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> Einführung in die Grüne Technologie</h1>
+<section id="definition-von-green-tech-engineering" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="definition-von-green-tech-engineering"><span class="header-section-number">3.1</span> Definition von Green Tech Engineering</h2>
+<p>Green Tech Engineering umfasst Technologien, die ökologische Verantwortung mit wirtschaftlichem Nutzen verbinden – von Kosteneinsparungen über Innovation bis hin zu neuen Wachstumschancen.</p>
+</section>
+<section id="beispiele" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="beispiele"><span class="header-section-number">3.2</span> Beispiele</h2>
+<ol type="1">
+<li><strong>Energieeffiziente Automatisierungssysteme:</strong>
+<ul>
+<li><strong>Intelligente Gebäudeautomation:</strong> Systeme, die durch Steuerungseinheiten die Beleuchtung, Heizung und Kühlung in Gebäuden optimieren. Sensoren und Aktuatoren arbeiten zusammen, um den Energieverbrauch basierend auf der tatsächlichen Nutzung und Umgebungsbedingungen zu reduzieren.</li>
+</ul></li>
+<li><strong>Intelligente Energieverteilung:</strong>
+<ul>
+<li><strong>Smart Grids:</strong> Elektronik wird eingesetzt, um intelligente Stromnetze zu entwickeln, die durch Sensoren und Steuerungssysteme die Energieverteilung in Echtzeit überwachen und anpassen. Dies ermöglicht eine effizientere Nutzung von erneuerbaren Energien und eine bessere Integration von Energiespeichern.</li>
+</ul></li>
+<li><strong>Umweltfreundliche Transportlösungen:</strong>
+<ul>
+<li><strong>Elektrofahrzeug-Managementsysteme:</strong> Systeme in Elektrofahrzeugen umfassen Batteriemanagementsysteme (BMS), die die Lade- und Entladezyklen überwachen und optimieren, um die Lebensdauer der Batterie zu verlängern und die Energieeffizienz zu maximieren. Auch die Integration von regenerativen Bremsensystemen zur Energieerzeugung während des Bremsvorgangs gehört dazu.</li>
+</ul></li>
+</ol>
+</section>
+<section id="motivation" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="motivation"><span class="header-section-number">3.3</span> Motivation</h2>
+<p>Was motiviert Sie für das Fach Green Tech Engineering?</p>
+</section>
+<section id="gruppenarbeit-brainstorming-zu-grünen-technologien" class="level2" data-number="3.4">
+<h2 data-number="3.4" class="anchored" data-anchor-id="gruppenarbeit-brainstorming-zu-grünen-technologien"><span class="header-section-number">3.4</span> Gruppenarbeit: Brainstorming zu grünen Technologien</h2>
+<p><strong>Ablauf:</strong><br>
+- Aufteilung in kleine Gruppen (3-4 Schüler)<br>
+- Jede Gruppe arbeitet eine OneNote Seite aus.<br>
+- Aufgabenstellung:<br>
+1. Denken Sie an verschiedene grüne Technologien. Tragen Sie diese auf der OneNote Seite zusammen. Jede Technologie darf nur einmal genannt werden. 2. Schreiben Sie auf, was diese Technologien umweltfreundlich macht.<br>
+3. Wählen Sie eine Technologie aus, die Sie besonders interessant findet und bereitet eine kurze Präsentation vor.</p>
+<p><strong>Präsentation der Ergebnisse:</strong><br>
+- Jede Gruppe präsentiert ihre ausgewählte Technologie und erläutert, warum sie der Definition entspricht ist (ca. 2-3 Minuten pro Gruppe).</p>
 
 
+
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
