@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Leopold Götsch">
-<meta name="dcterms.date" content="2024-10-01">
+<meta name="dcterms.date" content="2026-05-27">
 
 <title>05 Erneuerbare Energiequellen: Photovoltaik – GreenTechEngineering</title>
 <style>
@@ -89,6 +89,9 @@ div.csl-indent {
     "search-label": "Search"
   }
 }</script>
+<script src="../../site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="../../site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="../../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
@@ -195,7 +198,7 @@ window.Quarto = {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">October 1, 2024</p>
+        <p class="date">May 27, 2026</p>
       </div>
     </div>
     
@@ -231,11 +234,21 @@ window.Quarto = {
   </ul></li>
   <li><a href="#komponenten-einer-photovoltaikanlage" id="toc-komponenten-einer-photovoltaikanlage" class="nav-link" data-scroll-target="#komponenten-einer-photovoltaikanlage"><span class="header-section-number">3</span> Komponenten einer Photovoltaikanlage</a>
   <ul class="collapse">
-  <li><a href="#solarzellen" id="toc-solarzellen" class="nav-link" data-scroll-target="#solarzellen"><span class="header-section-number">3.1</span> Solarzellen</a></li>
-  <li><a href="#wechselrichter" id="toc-wechselrichter" class="nav-link" data-scroll-target="#wechselrichter"><span class="header-section-number">3.2</span> Wechselrichter</a></li>
+  <li><a href="#solarzellen" id="toc-solarzellen" class="nav-link" data-scroll-target="#solarzellen"><span class="header-section-number">3.1</span> Solarzellen</a>
+  <ul class="collapse">
+  <li><a href="#diagramm-i-u--und-p-u-kennlinie-mit-mpp" id="toc-diagramm-i-u--und-p-u-kennlinie-mit-mpp" class="nav-link" data-scroll-target="#diagramm-i-u--und-p-u-kennlinie-mit-mpp"><span class="header-section-number">3.1.1</span> Diagramm: I-U- und P-U-Kennlinie mit MPP</a></li>
+  <li><a href="#diagramm-temperatureinfluss-auf-die-p-u-kennlinie" id="toc-diagramm-temperatureinfluss-auf-die-p-u-kennlinie" class="nav-link" data-scroll-target="#diagramm-temperatureinfluss-auf-die-p-u-kennlinie"><span class="header-section-number">3.1.2</span> Diagramm: Temperatureinfluss auf die P-U-Kennlinie</a></li>
+  </ul></li>
+  <li><a href="#wechselrichter" id="toc-wechselrichter" class="nav-link" data-scroll-target="#wechselrichter"><span class="header-section-number">3.2</span> Wechselrichter</a>
+  <ul class="collapse">
+  <li><a href="#grundlegende-funktionsbeschreibung" id="toc-grundlegende-funktionsbeschreibung" class="nav-link" data-scroll-target="#grundlegende-funktionsbeschreibung"><span class="header-section-number">3.2.1</span> Grundlegende Funktionsbeschreibung</a></li>
+  <li><a href="#blockschaltbild" id="toc-blockschaltbild" class="nav-link" data-scroll-target="#blockschaltbild"><span class="header-section-number">3.2.2</span> Blockschaltbild</a></li>
+  <li><a href="#mppt-verfahren-im-detail" id="toc-mppt-verfahren-im-detail" class="nav-link" data-scroll-target="#mppt-verfahren-im-detail"><span class="header-section-number">3.2.3</span> MPPT-Verfahren im Detail</a></li>
+  <li><a href="#hybrid-wechselrichter" id="toc-hybrid-wechselrichter" class="nav-link" data-scroll-target="#hybrid-wechselrichter"><span class="header-section-number">3.2.4</span> Hybrid-Wechselrichter</a></li>
+  <li><a href="#videoempfehlungen-zu-mppt" id="toc-videoempfehlungen-zu-mppt" class="nav-link" data-scroll-target="#videoempfehlungen-zu-mppt"><span class="header-section-number">3.2.5</span> Videoempfehlungen zu MPPT</a></li>
+  </ul></li>
   <li><a href="#montagesystem" id="toc-montagesystem" class="nav-link" data-scroll-target="#montagesystem"><span class="header-section-number">3.3</span> Montagesystem</a></li>
   <li><a href="#verkabelung-und-anschluss" id="toc-verkabelung-und-anschluss" class="nav-link" data-scroll-target="#verkabelung-und-anschluss"><span class="header-section-number">3.4</span> Verkabelung und Anschluss</a></li>
-  <li><a href="#überwachungs--und-steuerungssystem" id="toc-überwachungs--und-steuerungssystem" class="nav-link" data-scroll-target="#überwachungs--und-steuerungssystem"><span class="header-section-number">3.5</span> Überwachungs- und Steuerungssystem</a></li>
   </ul></li>
   <li><a href="#auslegung-einer-photovoltaikanlage" id="toc-auslegung-einer-photovoltaikanlage" class="nav-link" data-scroll-target="#auslegung-einer-photovoltaikanlage"><span class="header-section-number">4</span> Auslegung einer Photovoltaikanlage</a></li>
   </ul>
@@ -253,28 +266,31 @@ https://pvaustria.at/daten-fakten/  -->
 <section id="marktanteil-der-photovoltaik-an-der-stromerzeugung" class="level1" data-number="1">
 <h1 data-number="1"><span class="header-section-number">1</span> Marktanteil der Photovoltaik an der Stromerzeugung</h1>
 <p>Die Photovoltaik ist eine der wichtigsten erneuerbaren Energiequellen und hat in den letzten Jahren einen starken Zuwachs an Bedeutung erfahren.<br>
-In Österreich beträgt der Anteil der Photovoltaik an der Stromerzeugung rund 10% <span class="citation" data-cites="InEnMarkt2023">[<a href="#ref-InEnMarkt2023" role="doc-biblioref">1</a>]</span>, Seite 28. Die durchschnittlichen Kosten für Photovoltaikanlagen in Österreich lagen im Jahr 2023 bei 1.699 Euro pro Kilowattpeak (kWp) netto <span class="citation" data-cites="InEnMarkt2023">[<a href="#ref-InEnMarkt2023" role="doc-biblioref">1</a>]</span>, Seite 28.</p>
+In Österreich deckt die Photovoltaik inzwischen mehr als 17 % des nationalen Strombedarfs <span class="citation" data-cites="InEnMarkt2024Kurz">[<a href="#ref-InEnMarkt2024Kurz" role="doc-biblioref">1</a>]</span>, Seite 18. Der mittlere Systempreis für eine schlüsselfertig installierte, netzgekoppelte 5 kWpeak Photovoltaikanlage lag im Jahr 2024 bei rund 1.551 Euro pro kWpeak exkl. MwSt. <span class="citation" data-cites="InEnMarkt2024Kurz">[<a href="#ref-InEnMarkt2024Kurz" role="doc-biblioref">1</a>]</span>, Seite 18.</p>
 </section>
 <section id="kennzahlen-der-photovoltaik" class="level1" data-number="2">
 <h1 data-number="2"><span class="header-section-number">2</span> Kennzahlen der Photovoltaik</h1>
 <section id="einheiten" class="level2" data-number="2.1">
 <h2 data-number="2.1" class="anchored" data-anchor-id="einheiten"><span class="header-section-number">2.1</span> Einheiten</h2>
 <ul>
-<li><p><strong>Wattpeak (Wp)</strong>: Die Leistung einer Photovoltaikanlage wird in Kilowattpeak (kWp) gemessen und gibt die Spitzenleistung der Photovoltaik Anlage an.</p></li>
-<li><p><strong>Watt (W)</strong>: Die Leistung einer Photovoltaikanlage wird in Watt (W) gemessen und gibt die momentane Leistung der Photovoltaik Anlage an.</p></li>
-<li><p><strong>Kilowattstunde (kWh)</strong>: Die Kilowattstunde ist eine Einheit für elektrische Energie und gibt an, wie viel Energie eine Photovoltaikanlage pro Zeiteinheit erzeugen kann.</p></li>
-<li><p><strong>Euro pro Kilowattpeak (€/kWp)</strong>: Die Investitionskosten für eine Photovoltaikanlage werden in Euro pro Kilowattpeak (€/kWp) angegeben.</p></li>
-<li><p><strong>Jahresertrag (kWh/kWp)</strong>: Der Jahresertrag einer Photovoltaikanlage gibt an, wie viel elektrische Energie sie pro Kilowattpeak und Jahr erzeugen kann.</p></li>
+<li><strong>Wattpeak (Wp) / Kilowattpeak (kWp)</strong>: Übliche Angabe der PV-Nennleistung unter Standard-Testbedingungen (STC).</li>
+<li><strong>Watt (W)</strong>: Einheit der Leistung <span class="math inline">\(P\)</span>.</li>
+<li><strong>Kilowattstunde (kWh)</strong>: Einheit der elektrischen Energie <span class="math inline">\(E\)</span>.</li>
+<li><strong>Euro pro Kilowattpeak (€/kWp)</strong>: Übliche Kennzahl für spezifische Investitionskosten.</li>
+<li><strong>Jahresertrag (kWh/(kWpa))</strong>: Elektrische Energie pro installierter Nennleistung und Jahr.</li>
 </ul>
+<p>Hinweis zur Schreibweise von Einheiten (SI/DIN-üblich): Zwischen Zahlenwert und Einheit steht ein Leerzeichen, z. B. 10 kW, 340 W, 25 °C, 10 %.</p>
 </section>
 <section id="kennzahlen-der-photovoltaik-1" class="level2" data-number="2.2">
 <h2 data-number="2.2" class="anchored" data-anchor-id="kennzahlen-der-photovoltaik-1"><span class="header-section-number">2.2</span> Kennzahlen der Photovoltaik</h2>
 <ul>
-<li><p><strong>Wirkungsgrad</strong>: Der Wirkungsgrad einer Photovoltaikanlage gibt an, wie effizient sie Sonnenlicht in elektrische Energie umwandeln kann. Moderne Solarzellen haben einen Wirkungsgrad von bis zu 22%.</p></li>
-<li><p><strong>Installierte Leistung</strong>: Die Installierte Leistung einer Photovoltaikanlage wird in Kilowattpeak (kWp) gemessen und gibt an, wie viel Leistung die Anlage maximal erzeugen kann.</p></li>
-<li><p><strong>Ertrag</strong>: Der Ertrag einer Photovoltaikanlage wird in Kilowattstunden (kWh) gemessen und gibt an, wie viel elektrische Energie die Anlage pro Zeiteinheit erzeugt hat.</p></li>
-<li><p><strong>Investitionskosten</strong>: Die Investitionskosten geben an wie viel die Anlage pro Kilowattpeak (kWp) gekostet hat.</p></li>
-<li><p><strong>Amortisationszeit</strong>: Die Amortisationszeit einer Photovoltaikanlage gibt an, wie lange es dauert, bis die Investitionskosten durch die eingesparten Stromkosten und die Einspeisevergütung abgedeckt sind.</p></li>
+<li><p><strong>Wirkungsgrad PV Paneele</strong>: Der Wirkungsgrad einer Photovoltaikanlage gibt an, wie effizient sie Sonnenlicht in elektrische Energie umwandeln kann. Typische Modulwerte liegen bei etwa 18 % bis 22 % (Top-Module teils etwas darueber).</p></li>
+<li><p><strong>Wirkungsgrad Wechselrichter</strong>: Gibt an, wie effizient der Wechselrichter DC in AC umwandelt. Typische europaeische Wirkungsgrade liegen bei etwa 96 % bis 99 %.</p></li>
+<li><p><strong>Wirkungsgrad Batterie (Roundtrip)</strong>: Gibt an, wie viel der gespeicherten Energie beim Laden und Entladen nutzbar bleibt. Typische Werte fuer Lithium-Ionen-Speicher liegen bei etwa 85 % bis 95 %.</p></li>
+<li><p><strong>Installierte Leistung</strong>: Die installierte Leistung einer Photovoltaikanlage wird in Kilowattpeak (kWp) gemessen und gibt an, wie viel Leistung die Anlage maximal erzeugen kann. Typisch fuer Einfamilienhaeuser sind etwa 5 kWp bis 15 kWp.</p></li>
+<li><p><strong>Ertrag</strong>: Der Ertrag einer Photovoltaikanlage wird in Kilowattstunden (kWh) gemessen und gibt an, wie viel elektrische Energie die Anlage erzeugt. In Oesterreich liegen typische Jahresertraege grob bei ca. 900 bis 1.200 kWh pro kWp und Jahr (abhängig von Standort, Ausrichtung und Verschattung).</p></li>
+<li><p><strong>Investitionskosten</strong>: Die Investitionskosten geben an, wie viel die Anlage pro Kilowattpeak (kWp) gekostet hat. Als typische Groessenordnung fuer kleine bis mittlere Dachanlagen gelten etwa 1.200 bis 2.000 EUR pro kWp.</p></li>
+<li><p><strong>Amortisationszeit</strong>: Die Amortisationszeit einer Photovoltaikanlage gibt an, wie lange es dauert, bis die Investitionskosten durch eingesparte Stromkosten und Einspeiseerloese abgedeckt sind. Typische Werte liegen oft im Bereich von etwa 8 bis 15 Jahren.</p></li>
 </ul>
 </section>
 </section>
@@ -282,27 +298,298 @@ In Österreich beträgt der Anteil der Photovoltaik an der Stromerzeugung rund 1
 <h1 data-number="3"><span class="header-section-number">3</span> Komponenten einer Photovoltaikanlage</h1>
 <section id="solarzellen" class="level2" data-number="3.1">
 <h2 data-number="3.1" class="anchored" data-anchor-id="solarzellen"><span class="header-section-number">3.1</span> Solarzellen</h2>
-<p>Solarzellen bestehen aus Halbleitermaterialien wie Silizium, die Sonnenlicht in elektrische Energie umwandeln. Die gängigsten Solarzellen sind monokristalline und polykristalline Zellen, die in Modulen verbaut werden.</p>
+<p>Solarzellen bestehen aus Halbleitermaterialien wie Silizium und wandeln Sonnenlicht direkt in elektrische Energie um (photovoltaischer Effekt). Trifft Licht auf die Zelle, entstehen freie Ladungsträger, die durch das innere elektrische Feld getrennt werden. Dadurch fließt ein Gleichstrom.</p>
+<p>Für den Betrieb sind vor allem drei Größen wichtig:</p>
+<ul>
+<li>Spannung <span class="math inline">\(U\)</span></li>
+<li>Strom <span class="math inline">\(I\)</span></li>
+<li>Leistung <span class="math inline">\(P\)</span> mit <span class="math inline">\(P = U \cdot I\)</span></li>
+</ul>
+<p>Die Solarzelle hat keine lineare Kennlinie. Deshalb gibt es einen optimalen Arbeitspunkt mit maximaler Leistung, den <strong>Maximum Power Point (MPP)</strong>. Dieser Punkt hängt von den Umgebungsbedingungen ab:</p>
+<ul>
+<li>höhere Einstrahlung: höherer Strom <span class="math inline">\(I\)</span>, meist höhere Leistung <span class="math inline">\(P\)</span></li>
+<li>höhere Zelltemperatur: geringere Spannung <span class="math inline">\(U\)</span>, meist geringere Leistung <span class="math inline">\(P\)</span></li>
+</ul>
+<p>Für die Praxis bedeutet das: Der Energieertrag der Solarzelle wird dann maximal, wenn sie möglichst nahe am MPP betrieben wird.</p>
+<section id="diagramm-i-u--und-p-u-kennlinie-mit-mpp" class="level3" data-number="3.1.1">
+<h3 data-number="3.1.1" class="anchored" data-anchor-id="diagramm-i-u--und-p-u-kennlinie-mit-mpp"><span class="header-section-number">3.1.1</span> Diagramm: I-U- und P-U-Kennlinie mit MPP</h3>
+<div id="cell-fig-iv-pv-mpp" class="cell" data-execution_count="1">
+<div class="cell-output cell-output-display">
+<div id="fig-iv-pv-mpp" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-iv-pv-mpp-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="index_files/figure-html/fig-iv-pv-mpp-output-1.png" width="753" height="447" class="figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-iv-pv-mpp-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Typische I-U- und P-U-Kennlinie einer PV-Zelle
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="diagramm-temperatureinfluss-auf-die-p-u-kennlinie" class="level3" data-number="3.1.2">
+<h3 data-number="3.1.2" class="anchored" data-anchor-id="diagramm-temperatureinfluss-auf-die-p-u-kennlinie"><span class="header-section-number">3.1.2</span> Diagramm: Temperatureinfluss auf die P-U-Kennlinie</h3>
+<div id="cell-fig-temp-mpp-shift" class="cell" data-execution_count="2">
+<div class="cell-output cell-output-display">
+<div id="fig-temp-mpp-shift" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-temp-mpp-shift-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="index_files/figure-html/fig-temp-mpp-shift-output-1.png" width="755" height="447" class="figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-temp-mpp-shift-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Einfluss der Zelltemperatur auf die P-U-Kennlinie und den MPP
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
 </section>
 <section id="wechselrichter" class="level2" data-number="3.2">
 <h2 data-number="3.2" class="anchored" data-anchor-id="wechselrichter"><span class="header-section-number">3.2</span> Wechselrichter</h2>
-<p>Wechselrichter wandeln den erzeugten Gleichstrom der Solarzellen in Wechselstrom um, der im Stromnetz genutzt werden kann. Moderne Wechselrichter verfügen über intelligente Steuerungssysteme und Monitoringfunktionen.</p>
+<p>Der Wechselrichter wandelt den Gleichstrom (DC) der PV-Module in netzkonformen Wechselstrom (AC) um, damit Verbraucher versorgt oder Energie ins Netz eingespeist werden kann. Moderne Geräte übernehmen zusätzlich die Regelung des Arbeitspunkts der PV-Module.</p>
+<section id="grundlegende-funktionsbeschreibung" class="level3" data-number="3.2.1">
+<h3 data-number="3.2.1" class="anchored" data-anchor-id="grundlegende-funktionsbeschreibung"><span class="header-section-number">3.2.1</span> Grundlegende Funktionsbeschreibung</h3>
+<p>Ein Wechselrichter arbeitet vereinfacht in drei Stufen:</p>
+<ol type="1">
+<li><strong>DC-Eingang und Regelung</strong>: Der Eingang wird überwacht, und der Arbeitspunkt wird so eingestellt, dass die PV-Anlage möglichst nahe am MPP arbeitet.</li>
+<li><strong>Leistungsschalter-Stufe</strong>: Leistungshalbleiter (z. B. MOSFETs oder IGBTs) schalten den Gleichstrom mit hoher Frequenz.</li>
+<li><strong>Ausgangsaufbereitung</strong>: Über Filter und Regelung entsteht eine stabile Wechselspannung, die zu Netzfrequenz und Netzspannung passt.</li>
+</ol>
+</section>
+<section id="blockschaltbild" class="level3" data-number="3.2.2">
+<h3 data-number="3.2.2" class="anchored" data-anchor-id="blockschaltbild"><span class="header-section-number">3.2.2</span> Blockschaltbild</h3>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">%%{init: {'theme':'base','themeVariables': { 'primaryColor':'#ffffff', 'primaryBorderColor':'#000000', 'primaryTextColor':'#000000', 'lineColor':'#000000', 'secondaryColor':'#ffffff', 'tertiaryColor':'#ffffff' }, 'flowchart': { 'curve':'linear' } }}%%
+flowchart LR
+  A[PV-Eingang DC] --&gt; B[MPPT und DC-Regelung]
+  B --&gt; C[DC-Zwischenkreis]
+  C --&gt; D[Leistungsteil&lt;br/&gt;DC-AC-Wandlung und Filterung]
+  D --&gt; F[AC-Ausgang]
+
+  C --&gt; I[Batterie]
+  I --&gt; C
+
+  style A fill:#ffffff,stroke:#000000,color:#000000
+  style B fill:#ffffff,stroke:#000000,color:#000000
+  style C fill:#ffffff,stroke:#000000,color:#000000
+  style D fill:#ffffff,stroke:#000000,color:#000000
+  style F fill:#ffffff,stroke:#000000,color:#000000
+  style I fill:#ffffff,stroke:#000000,color:#000000
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<p>Wichtige Aufgaben des Wechselrichters im Betrieb:</p>
+<ul>
+<li>Synchronisation mit dem öffentlichen Netz</li>
+<li>Einhaltung von Spannungs- und Frequenzgrenzen</li>
+<li>Schutzfunktionen bei Fehlern (z. B. Überstrom, Übertemperatur, Netzausfall)</li>
+<li>Kommunikation und Monitoring (Leistung, Ertrag, Statusmeldungen)</li>
+</ul>
+<p>Wichtig ist die Unterscheidung:</p>
+<ul>
+<li><strong>MPP</strong>: der optimale Punkt auf der Kennlinie</li>
+<li><strong>MPPT (Maximum Power Point Tracking)</strong>: das Regelverfahren, das diesen Punkt laufend sucht und nachführt</li>
+</ul>
+<p>Typische MPPT-Verfahren im Vergleich:</p>
+<ul>
+<li><strong>Perturb and Observe (P&amp;O)</strong></li>
+<li><strong>Incremental Conductance</strong></li>
+<li><strong>Constant Voltage (CV)</strong></li>
+<li><strong>Fester Arbeitspunkt</strong></li>
+</ul>
+</section>
+<section id="mppt-verfahren-im-detail" class="level3" data-number="3.2.3">
+<h3 data-number="3.2.3" class="anchored" data-anchor-id="mppt-verfahren-im-detail"><span class="header-section-number">3.2.3</span> MPPT-Verfahren im Detail</h3>
+<p><strong>Perturb and Observe (P&amp;O)</strong></p>
+<ul>
+<li>Prinzip: Der Regler ändert den Arbeitspunkt schrittweise und prüft, ob die Leistung steigt oder fällt.</li>
+<li>Vorteil: Einfach, robust und in vielen Geräten Standard.</li>
+<li>Nachteil: Im stationären Betrieb pendelt das Verfahren um den MPP und verliert dadurch etwas Ertrag.</li>
+<li>Typischer Einsatz: Kleine bis mittlere Anlagen mit moderaten Last- und Wetteränderungen.</li>
+</ul>
+<p><strong>Incremental Conductance</strong></p>
+<ul>
+<li>Prinzip: Das Verfahren nutzt die MPP-Bedingung <span class="math inline">\(\frac{dP}{dU}=0\)</span> und bestimmt daraus die Richtung der nächsten Stellgrößenänderung.</li>
+<li>Vorteil: Bessere Nachführung bei schnell wechselnder Einstrahlung.</li>
+<li>Nachteil: Höherer Rechen- und Messaufwand als P&amp;O.</li>
+<li>Typischer Einsatz: Dynamische Bedingungen, bei denen schnelle und präzise Nachführung wichtig ist.</li>
+</ul>
+<p><strong>Constant Voltage (CV)</strong></p>
+<ul>
+<li>Prinzip: Die PV-Spannung wird auf einen festen Anteil der Leerlaufspannung geregelt.</li>
+<li>Vorteil: Sehr einfach umzusetzen.</li>
+<li>Nachteil: Nur Näherung an den MPP, dadurch oft geringerer Ertrag.</li>
+<li>Typischer Einsatz: Einfache oder kostensensitive Systeme.</li>
+</ul>
+<p><strong>Fester Arbeitspunkt</strong></p>
+<ul>
+<li>Prinzip: Betrieb mit fester Spannung oder fester Last ohne Nachführung.</li>
+<li>Vorteil: Minimaler Regelaufwand.</li>
+<li>Nachteil: Bei wechselnden Bedingungen häufig weit weg vom MPP.</li>
+<li>Typischer Einsatz: Didaktik, Sonderfälle oder stark vereinfachte Systeme.</li>
+</ul>
+</section>
+<section id="hybrid-wechselrichter" class="level3" data-number="3.2.4">
+<h3 data-number="3.2.4" class="anchored" data-anchor-id="hybrid-wechselrichter"><span class="header-section-number">3.2.4</span> Hybrid-Wechselrichter</h3>
+<p>Hybrid-Wechselrichter kombinieren PV-Wechselrichter und Batteriewechselrichter in einem Gerät. Sie können damit gleichzeitig PV-Erzeugung, Batteriespeicher und Lasten koordinieren.</p>
+<p>Typische Betriebsmodi:</p>
+<ul>
+<li><strong>PV versorgt Last direkt</strong>: Aktueller Verbrauch wird unmittelbar aus der PV gedeckt.</li>
+<li><strong>PV lädt Batterie</strong>: Überschüsse werden gespeichert statt eingespeist.</li>
+<li><strong>Batterie versorgt Last</strong>: Bei geringer PV-Leistung oder nachts.</li>
+<li><strong>Netzbezug oder Einspeisung</strong>: Je nach Bilanz aus Erzeugung, Verbrauch und Speicherzustand.</li>
+</ul>
+<p>Vorteile von Hybrid-Wechselrichtern:</p>
+<ul>
+<li>weniger Einzelgeräte und oft einfachere Installation</li>
+<li>zentrales Energiemanagement</li>
+<li>bessere Eigenverbrauchsoptimierung</li>
+<li>gute Grundlage für Notstrom- oder Ersatzstromfunktionen (geräteabhängig)</li>
+</ul>
+<p>Worauf bei der Auswahl zu achten ist:</p>
+<ul>
+<li>kompatible Batteriesysteme und Schnittstellen</li>
+<li>Lade-/Entladeleistung und nutzbare Speicherkapazität</li>
+<li>Wirkungsgrad im realen Teillastbetrieb</li>
+<li>verfügbare Betriebsmodi (z. B. Backup, Peak Shaving, Zeitfenstersteuerung)</li>
+</ul>
+<p>Ein vereinfachter Energiepfad lautet:</p>
+<ol type="1">
+<li>PV-Module erzeugen DC-Leistung</li>
+<li>MPPT im Wechselrichter oder in einer vorgelagerten DC-DC-Stufe optimiert den Arbeitspunkt</li>
+<li>Wechselrichter wandelt in AC um</li>
+<li>AC-Leistung versorgt Lasten oder wird ins Netz eingespeist</li>
+</ol>
+<p>Jede Umwandlungsstufe hat Verluste. Der Wirkungsgrad wird beschrieben durch <span class="math inline">\(\eta = \frac{P_{out}}{P_{in}}\)</span>. Gute Wechselrichter erreichen heute typischerweise einen Wirkungsgrad <span class="math inline">\(\eta\)</span> von über 95 %.</p>
+</section>
+<section id="videoempfehlungen-zu-mppt" class="level3" data-number="3.2.5">
+<h3 data-number="3.2.5" class="anchored" data-anchor-id="videoempfehlungen-zu-mppt"><span class="header-section-number">3.2.5</span> Videoempfehlungen zu MPPT</h3>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=9dNukdwBfoQ">MPPT explained (AKIO TV)</a></li>
+<li><a href="https://www.youtube.com/watch?v=jJwVyOqxCaQ">MPPT What is it and How it works? (Electronoobs)</a></li>
+<li><a href="https://www.youtube.com/watch?v=qIajSDd5Xzs">MPPT Incremental conductance method concept &amp; flowchart</a></li>
+</ul>
+</section>
 </section>
 <section id="montagesystem" class="level2" data-number="3.3">
 <h2 data-number="3.3" class="anchored" data-anchor-id="montagesystem"><span class="header-section-number">3.3</span> Montagesystem</h2>
 <p>Das Montagesystem dient zur Befestigung der Solarmodule auf dem Dach oder dem Boden. Es muss stabil, wetterfest und optimal ausgerichtet sein, um eine effiziente Energieerzeugung zu gewährleisten.</p>
+<p>Beispielhafte Hersteller von PV-Montagesystemen:</p>
+<ul>
+<li><a href="https://k2-systems.com">K2 Systems</a></li>
+<li><a href="https://www.schletter-group.com">Schletter Group</a></li>
+<li><a href="https://www.renusol.com">Renusol</a></li>
+<li><a href="https://www.esdec.com">Esdec</a></li>
+<li><a href="https://www.aerocompact.com">AEROCOMPACT</a></li>
+<li><a href="https://www.novotegra.com">novotegra</a></li>
+</ul>
 </section>
 <section id="verkabelung-und-anschluss" class="level2" data-number="3.4">
 <h2 data-number="3.4" class="anchored" data-anchor-id="verkabelung-und-anschluss"><span class="header-section-number">3.4</span> Verkabelung und Anschluss</h2>
-<p>Die Verkabelung verbindet die Solarzellen, Wechselrichter und weitere Komponenten miteinander. Der Anschluss an das Stromnetz erfolgt über einen Wechselrichter und einen Zähler, der die eingespeiste Energie erfasst.</p>
-</section>
-<section id="überwachungs--und-steuerungssystem" class="level2" data-number="3.5">
-<h2 data-number="3.5" class="anchored" data-anchor-id="überwachungs--und-steuerungssystem"><span class="header-section-number">3.5</span> Überwachungs- und Steuerungssystem</h2>
-<p>Ein Monitoring-System überwacht die Leistung der Photovoltaikanlage und informiert den Betreiber über den Energieertrag, mögliche Störungen oder Wartungsbedarf. Moderne Anlagen können über Apps oder Online-Plattformen gesteuert und optimiert werden.</p>
+<p>Tätigkeiten bei Verkabelung und Anschluss:</p>
+<ul>
+<li>Leitungswege planen (DC/AC-Trennung, mechanischer Schutz, Brandschutz)</li>
+<li>Kabel und Leitungen dimensionieren (Strombelastbarkeit, Spannungsfall, Verlegeart)</li>
+<li>DC-seitige Leitungen verlegen und anschließen (Stringverkabelung, Stecker, Polarität)</li>
+<li>AC-seitige Leitungen vom Wechselrichter zur Verteilung herstellen</li>
+<li>Schutz- und Erdungsmaßnahmen umsetzen (Potentialausgleich, Überspannungsschutz, Abschaltorgane)</li>
+<li>Zählerplatz und Einspeisepunkt vorbereiten, Abstimmung mit Netzbetreiber</li>
+<li>Prüfen, dokumentieren, in Betrieb nehmen (Messprotokolle, Anlagenfreigabe)</li>
+</ul>
+<p>Gültige Normen und Regelwerke (Auszug):</p>
+<ul>
+<li>OVE E 8101 (Errichtung von Niederspannungsanlagen)</li>
+<li>OVE/OENORM EN 62548 (Auslegung und Errichtung von PV-Generatoren)</li>
+<li>OVE/OENORM EN 62446-1 (Pruefung, Dokumentation und Inbetriebnahme von PV-Anlagen)</li>
+<li>TOR Erzeuger (Technische und organisatorische Regeln der Netzbetreiber fuer den Netzanschluss)</li>
+<li>Technische Anschlussbedingungen des jeweils zustaendigen Netzbetreibers (TAEV/TAB)</li>
+</ul>
 </section>
 </section>
 <section id="auslegung-einer-photovoltaikanlage" class="level1" data-number="4">
 <h1 data-number="4"><span class="header-section-number">4</span> Auslegung einer Photovoltaikanlage</h1>
+<p>Siehe Unterlagen im OneNote.</p>
+<p>Die Auslegung einer Photovoltaikanlage erfolgt typischerweise in klaren Einzelschritten.</p>
+<ol type="1">
+<li><strong>Bedarf analysieren</strong></li>
+</ol>
+<ul>
+<li>Jahresstromverbrauch und Lastprofil erfassen</li>
+<li>Ziel definieren (Eigenverbrauch, Einspeisung, Speicher, Notstrom)</li>
+</ul>
+<ol start="2" type="1">
+<li><strong>Standort bewerten</strong></li>
+</ol>
+<ul>
+<li>Dachflächen, Ausrichtung und Neigung aufnehmen</li>
+<li>Verschattung analysieren (Bäume, Kamine, Nachbargebäude)</li>
+<li>Statik und bauliche Randbedingungen prüfen</li>
+</ul>
+<ol start="3" type="1">
+<li><strong>PV-Generator dimensionieren</strong></li>
+</ol>
+<ul>
+<li>Modulleistung und Anzahl der Module festlegen</li>
+<li>Stringaufteilung passend zum Wechselrichter planen</li>
+<li>Spannungs- und Stromgrenzen der Komponenten einhalten</li>
+</ul>
+<ol start="4" type="1">
+<li><strong>Wechselrichter und Speicher auswählen</strong></li>
+</ol>
+<ul>
+<li>AC-Nennleistung passend zur Generatorgröße wählen</li>
+<li>MPPT-Anzahl und Eingangsbereiche prüfen</li>
+<li>Optional: Speichergröße und Lade-/Entladeleistung abstimmen</li>
+</ul>
+<ol start="5" type="1">
+<li><strong>Verkabelung und Schutzkonzept auslegen</strong></li>
+</ol>
+<ul>
+<li>DC- und AC-Leitungsquerschnitte bestimmen</li>
+<li>Schutzorgane festlegen (Überstrom, Überspannung, Trennstellen)</li>
+<li>Erdung und Potentialausgleich planen</li>
+</ul>
+<ol start="6" type="1">
+<li><strong>Netzanschluss klären</strong></li>
+</ol>
+<ul>
+<li>Anschlussbedingungen beim Netzbetreiber einholen</li>
+<li>Einspeisekonzept und Zählerkonzept abstimmen</li>
+<li>Erforderliche Meldungen und Unterlagen vorbereiten</li>
+</ul>
+<ol start="7" type="1">
+<li><strong>Ertrag und Wirtschaftlichkeit bewerten</strong></li>
+</ol>
+<ul>
+<li>Jahresertrag unter Berücksichtigung von Lage und Verlusten abschätzen</li>
+<li>Eigenverbrauchsanteil und Einspeisung berechnen</li>
+<li>Investitionskosten, Betriebskosten und Amortisation vergleichen</li>
+</ul>
+<ol start="8" type="1">
+<li><strong>Dokumentation, Inbetriebnahme und Monitoring</strong></li>
+</ol>
+<ul>
+<li>Anlagendokumentation und Prüfprotokolle erstellen</li>
+<li>Fachgerechte Inbetriebnahme durchführen</li>
+<li>Monitoring einrichten und Soll-Ist-Vergleich starten</li>
+</ul>
+<p>Hilfreiche Links für Auslegung und Wirtschaftlichkeitsrechnung:</p>
+<ul>
+<li><a href="https://re.jrc.ec.europa.eu/pvg_tools/en/">PVGIS - Ertragsabschätzung (EU/JRC)</a></li>
+<li><a href="https://globalsolaratlas.info/">Global Solar Atlas - Einstrahlung und PV-Potenzial</a></li>
+<li><a href="https://www.e-control.at/tarifkalkulator">E-Control Tarifkalkulator - Stromtarife in Österreich</a></li>
+<li><a href="https://www.umweltfoerderung.at/">Umweltförderung Österreich (UFI) - Förderinformationen</a></li>
+<li><a href="https://www.oem-ag.at/">OeMAG - Informationen zu Einspeisung und Abwicklung</a></li>
+</ul>
 
 
 
@@ -310,8 +597,8 @@ In Österreich beträgt der Anteil der Photovoltaik an der Stromerzeugung rund 1
 </section>
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body" role="list">
-<div id="ref-InEnMarkt2023" class="csl-entry" role="listitem">
-<div class="csl-left-margin">1. </div><div class="csl-right-inline">Biermayr P, Aigenbauer S, Dißauer C, et al (2024) <span class="nocase">Innovative Energietechnologien in Österreich Marktentwicklung 2023</span>. <a href="https://nachhaltigwirtschaften.at/resources/nw_pdf/schriftenreihe-2024-17a-marktbericht-energietechnologien-lf_bf.pdf">https://nachhaltigwirtschaften.at/resources/nw_pdf/schriftenreihe-2024-17a-marktbericht-energietechnologien-lf_bf.pdf</a>. Accessed 27 Sep 2024</div>
+<div id="ref-InEnMarkt2024Kurz" class="csl-entry" role="listitem">
+<div class="csl-left-margin">1. </div><div class="csl-right-inline">Austria BP (2025) Kurzfassung PV-marktstatistik 2024. <a href="https://pvaustria.at/wp-content/uploads/BMIMI-marktstatistik-2024-kurzfassung.pdf">https://pvaustria.at/wp-content/uploads/BMIMI-marktstatistik-2024-kurzfassung.pdf</a>. Accessed 27 May 2026</div>
 </div>
 </div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

@@ -7,60 +7,88 @@
     "text": "https://lg-eng.github.io/GreenTechEngineering/"
   },
   {
+    "objectID": "posts/08_Trains/index.html",
+    "href": "posts/08_Trains/index.html",
+    "title": "Green Transport: Trains",
+    "section": "",
+    "text": "Trains are considered one of the most sustainable and efficient modes of transportation for several reasons: 1. Energy Efficiency: Trains can move a large number of passengers or a significant amount of freight with relatively low energy consumption per mile compared to cars and airplanes. This is due to the reduced friction between steel wheels and steel rails, which allows trains to travel more efficiently. 2. Lower Emissions: Electric trains produce significantly lower greenhouse gas emissions compared to road vehicles and airplanes, especially when powered by renewable energy sources. Even diesel-powered trains tend to be more fuel-efficient than trucks and cars on a per-ton-mile basis. 3. Mass Transit Capability: Trains can carry hundreds of passengers at once, reducing the number of individual vehicles on the road. This mass transit capability helps to decrease traffic congestion and the associated emissions from idling vehicles. 4. Land Use Efficiency: Railways require less land per passenger or ton of freight transported compared to highways. This efficient use of land helps to preserve natural habitats and reduces urban sprawl. 5. Durability and Longevity: Trains and railway infrastructure tend to have longer lifespans compared to road vehicles and highways, leading to less frequent replacements and lower resource consumption over time."
+  },
+  {
+    "objectID": "posts/08_Trains/index.html#power-collection-catenary-pantograph",
+    "href": "posts/08_Trains/index.html#power-collection-catenary-pantograph",
+    "title": "Green Transport: Trains",
+    "section": "3.1 Power collection (catenary + pantograph)",
+    "text": "3.1 Power collection (catenary + pantograph)\n\n\n\nPantograph collecting current from the overhead catenary, by Sese Ingolstadt CC-SA-2.5\n\n\nThe pantograph keeps steady contact with the contact wire using springs and pneumatic force while the catenary’s stagger reduces groove wear on the carbon strip. In Austria and Germany, 15 kV AC at 16.7 Hz is common; other countries use different voltages and DC systems. The 16.7 Hz frequency is a legacy of early 20th-century railway electrification, chosen to reduce interference with telegraph and telephone systems and to optimize the performance of early electric traction motors."
+  },
+  {
+    "objectID": "posts/08_Trains/index.html#transformer-and-power-electronics",
+    "href": "posts/08_Trains/index.html#transformer-and-power-electronics",
+    "title": "Green Transport: Trains",
+    "section": "3.2 Transformer and power electronics",
+    "text": "3.2 Transformer and power electronics\n {fig-attr=“Image via Wikimedia Commons (CC BY-SA).”}\nHigh‑voltage AC from the line is stepped down by a transformer, rectified, buffered in a DC link, and modulated by an IGBT/SiC inverter to variable‑frequency AC for traction motors."
+  },
+  {
+    "objectID": "posts/08_Trains/index.html#traction-motors-in-the-bogie",
+    "href": "posts/08_Trains/index.html#traction-motors-in-the-bogie",
+    "title": "Green Transport: Trains",
+    "section": "3.3 Traction motors in the bogie",
+    "text": "3.3 Traction motors in the bogie\n {fig-attr=“Image via Wikimedia Commons (CC BY-SA).”}\nModern EMUs use 3‑phase asynchronous or permanent‑magnet synchronous motors. Torque passes through a reduction gearbox to the axle; suspension isolates vibration."
+  },
+  {
+    "objectID": "posts/08_Trains/index.html#regenerative-braking",
+    "href": "posts/08_Trains/index.html#regenerative-braking",
+    "title": "Green Transport: Trains",
+    "section": "3.4 Regenerative braking",
+    "text": "3.4 Regenerative braking\n {fig-attr=“Image via Wikimedia Commons (CC BY-SA).”}\nDuring braking the inverter operates as a rectifier, returning energy to the catenary when the grid accepts it, otherwise to on‑train resistors or batteries.\nNotes: - The images above are sourced from Wikimedia Commons and are licensed under Creative Commons (typically CC BY-SA). Follow each file page for exact authorship and license terms. - Replace an image with a different CC‑licensed alternative by swapping the Special:FilePath URL; Quarto will keep the captions and attributions."
+  },
+  {
     "objectID": "posts/05/index.html",
     "href": "posts/05/index.html",
     "title": "05 Erneuerbare Energiequellen: Photovoltaik",
     "section": "",
-    "text": "Die Photovoltaik ist eine der wichtigsten erneuerbaren Energiequellen und hat in den letzten Jahren einen starken Zuwachs an Bedeutung erfahren.\nIn Österreich beträgt der Anteil der Photovoltaik an der Stromerzeugung rund 10% [1], Seite 28. Die durchschnittlichen Kosten für Photovoltaikanlagen in Österreich lagen im Jahr 2023 bei 1.699 Euro pro Kilowattpeak (kWp) netto [1], Seite 28."
+    "text": "Die Photovoltaik ist eine der wichtigsten erneuerbaren Energiequellen und hat in den letzten Jahren einen starken Zuwachs an Bedeutung erfahren.\nIn Österreich deckt die Photovoltaik inzwischen mehr als 17 % des nationalen Strombedarfs [1], Seite 18. Der mittlere Systempreis für eine schlüsselfertig installierte, netzgekoppelte 5 kWpeak Photovoltaikanlage lag im Jahr 2024 bei rund 1.551 Euro pro kWpeak exkl. MwSt. [1], Seite 18."
   },
   {
     "objectID": "posts/05/index.html#einheiten",
     "href": "posts/05/index.html#einheiten",
     "title": "05 Erneuerbare Energiequellen: Photovoltaik",
     "section": "2.1 Einheiten",
-    "text": "2.1 Einheiten\n\nWattpeak (Wp): Die Leistung einer Photovoltaikanlage wird in Kilowattpeak (kWp) gemessen und gibt die Spitzenleistung der Photovoltaik Anlage an.\nWatt (W): Die Leistung einer Photovoltaikanlage wird in Watt (W) gemessen und gibt die momentane Leistung der Photovoltaik Anlage an.\nKilowattstunde (kWh): Die Kilowattstunde ist eine Einheit für elektrische Energie und gibt an, wie viel Energie eine Photovoltaikanlage pro Zeiteinheit erzeugen kann.\nEuro pro Kilowattpeak (€/kWp): Die Investitionskosten für eine Photovoltaikanlage werden in Euro pro Kilowattpeak (€/kWp) angegeben.\nJahresertrag (kWh/kWp): Der Jahresertrag einer Photovoltaikanlage gibt an, wie viel elektrische Energie sie pro Kilowattpeak und Jahr erzeugen kann."
+    "text": "2.1 Einheiten\n\nWattpeak (Wp) / Kilowattpeak (kWp): Übliche Angabe der PV-Nennleistung unter Standard-Testbedingungen (STC).\nWatt (W): Einheit der Leistung \\(P\\).\nKilowattstunde (kWh): Einheit der elektrischen Energie \\(E\\).\nEuro pro Kilowattpeak (€/kWp): Übliche Kennzahl für spezifische Investitionskosten.\nJahresertrag (kWh/(kWpa)): Elektrische Energie pro installierter Nennleistung und Jahr.\n\nHinweis zur Schreibweise von Einheiten (SI/DIN-üblich): Zwischen Zahlenwert und Einheit steht ein Leerzeichen, z. B. 10 kW, 340 W, 25 °C, 10 %."
   },
   {
     "objectID": "posts/05/index.html#kennzahlen-der-photovoltaik-1",
     "href": "posts/05/index.html#kennzahlen-der-photovoltaik-1",
     "title": "05 Erneuerbare Energiequellen: Photovoltaik",
     "section": "2.2 Kennzahlen der Photovoltaik",
-    "text": "2.2 Kennzahlen der Photovoltaik\n\nWirkungsgrad: Der Wirkungsgrad einer Photovoltaikanlage gibt an, wie effizient sie Sonnenlicht in elektrische Energie umwandeln kann. Moderne Solarzellen haben einen Wirkungsgrad von bis zu 22%.\nInstallierte Leistung: Die Installierte Leistung einer Photovoltaikanlage wird in Kilowattpeak (kWp) gemessen und gibt an, wie viel Leistung die Anlage maximal erzeugen kann.\nErtrag: Der Ertrag einer Photovoltaikanlage wird in Kilowattstunden (kWh) gemessen und gibt an, wie viel elektrische Energie die Anlage pro Zeiteinheit erzeugt hat.\nInvestitionskosten: Die Investitionskosten geben an wie viel die Anlage pro Kilowattpeak (kWp) gekostet hat.\nAmortisationszeit: Die Amortisationszeit einer Photovoltaikanlage gibt an, wie lange es dauert, bis die Investitionskosten durch die eingesparten Stromkosten und die Einspeisevergütung abgedeckt sind."
+    "text": "2.2 Kennzahlen der Photovoltaik\n\nWirkungsgrad PV Paneele: Der Wirkungsgrad einer Photovoltaikanlage gibt an, wie effizient sie Sonnenlicht in elektrische Energie umwandeln kann. Typische Modulwerte liegen bei etwa 18 % bis 22 % (Top-Module teils etwas darueber).\nWirkungsgrad Wechselrichter: Gibt an, wie effizient der Wechselrichter DC in AC umwandelt. Typische europaeische Wirkungsgrade liegen bei etwa 96 % bis 99 %.\nWirkungsgrad Batterie (Roundtrip): Gibt an, wie viel der gespeicherten Energie beim Laden und Entladen nutzbar bleibt. Typische Werte fuer Lithium-Ionen-Speicher liegen bei etwa 85 % bis 95 %.\nInstallierte Leistung: Die installierte Leistung einer Photovoltaikanlage wird in Kilowattpeak (kWp) gemessen und gibt an, wie viel Leistung die Anlage maximal erzeugen kann. Typisch fuer Einfamilienhaeuser sind etwa 5 kWp bis 15 kWp.\nErtrag: Der Ertrag einer Photovoltaikanlage wird in Kilowattstunden (kWh) gemessen und gibt an, wie viel elektrische Energie die Anlage erzeugt. In Oesterreich liegen typische Jahresertraege grob bei ca. 900 bis 1.200 kWh pro kWp und Jahr (abhängig von Standort, Ausrichtung und Verschattung).\nInvestitionskosten: Die Investitionskosten geben an, wie viel die Anlage pro Kilowattpeak (kWp) gekostet hat. Als typische Groessenordnung fuer kleine bis mittlere Dachanlagen gelten etwa 1.200 bis 2.000 EUR pro kWp.\nAmortisationszeit: Die Amortisationszeit einer Photovoltaikanlage gibt an, wie lange es dauert, bis die Investitionskosten durch eingesparte Stromkosten und Einspeiseerloese abgedeckt sind. Typische Werte liegen oft im Bereich von etwa 8 bis 15 Jahren."
   },
   {
     "objectID": "posts/05/index.html#solarzellen",
     "href": "posts/05/index.html#solarzellen",
     "title": "05 Erneuerbare Energiequellen: Photovoltaik",
     "section": "3.1 Solarzellen",
-    "text": "3.1 Solarzellen\nSolarzellen bestehen aus Halbleitermaterialien wie Silizium, die Sonnenlicht in elektrische Energie umwandeln. Die gängigsten Solarzellen sind monokristalline und polykristalline Zellen, die in Modulen verbaut werden."
+    "text": "3.1 Solarzellen\nSolarzellen bestehen aus Halbleitermaterialien wie Silizium und wandeln Sonnenlicht direkt in elektrische Energie um (photovoltaischer Effekt). Trifft Licht auf die Zelle, entstehen freie Ladungsträger, die durch das innere elektrische Feld getrennt werden. Dadurch fließt ein Gleichstrom.\nFür den Betrieb sind vor allem drei Größen wichtig:\n\nSpannung \\(U\\)\nStrom \\(I\\)\nLeistung \\(P\\) mit \\(P = U \\cdot I\\)\n\nDie Solarzelle hat keine lineare Kennlinie. Deshalb gibt es einen optimalen Arbeitspunkt mit maximaler Leistung, den Maximum Power Point (MPP). Dieser Punkt hängt von den Umgebungsbedingungen ab:\n\nhöhere Einstrahlung: höherer Strom \\(I\\), meist höhere Leistung \\(P\\)\nhöhere Zelltemperatur: geringere Spannung \\(U\\), meist geringere Leistung \\(P\\)\n\nFür die Praxis bedeutet das: Der Energieertrag der Solarzelle wird dann maximal, wenn sie möglichst nahe am MPP betrieben wird.\n\n3.1.1 Diagramm: I-U- und P-U-Kennlinie mit MPP\n\n\n\n\n\n\n\n\nFigure 1: Typische I-U- und P-U-Kennlinie einer PV-Zelle\n\n\n\n\n\n\n\n3.1.2 Diagramm: Temperatureinfluss auf die P-U-Kennlinie\n\n\n\n\n\n\n\n\nFigure 2: Einfluss der Zelltemperatur auf die P-U-Kennlinie und den MPP"
   },
   {
     "objectID": "posts/05/index.html#wechselrichter",
     "href": "posts/05/index.html#wechselrichter",
     "title": "05 Erneuerbare Energiequellen: Photovoltaik",
     "section": "3.2 Wechselrichter",
-    "text": "3.2 Wechselrichter\nWechselrichter wandeln den erzeugten Gleichstrom der Solarzellen in Wechselstrom um, der im Stromnetz genutzt werden kann. Moderne Wechselrichter verfügen über intelligente Steuerungssysteme und Monitoringfunktionen."
+    "text": "3.2 Wechselrichter\nDer Wechselrichter wandelt den Gleichstrom (DC) der PV-Module in netzkonformen Wechselstrom (AC) um, damit Verbraucher versorgt oder Energie ins Netz eingespeist werden kann. Moderne Geräte übernehmen zusätzlich die Regelung des Arbeitspunkts der PV-Module.\n\n3.2.1 Grundlegende Funktionsbeschreibung\nEin Wechselrichter arbeitet vereinfacht in drei Stufen:\n\nDC-Eingang und Regelung: Der Eingang wird überwacht, und der Arbeitspunkt wird so eingestellt, dass die PV-Anlage möglichst nahe am MPP arbeitet.\nLeistungsschalter-Stufe: Leistungshalbleiter (z. B. MOSFETs oder IGBTs) schalten den Gleichstrom mit hoher Frequenz.\nAusgangsaufbereitung: Über Filter und Regelung entsteht eine stabile Wechselspannung, die zu Netzfrequenz und Netzspannung passt.\n\n\n\n3.2.2 Blockschaltbild\n\n\n\n\n\n%%{init: {'theme':'base','themeVariables': { 'primaryColor':'#ffffff', 'primaryBorderColor':'#000000', 'primaryTextColor':'#000000', 'lineColor':'#000000', 'secondaryColor':'#ffffff', 'tertiaryColor':'#ffffff' }, 'flowchart': { 'curve':'linear' } }}%%\nflowchart LR\n  A[PV-Eingang DC] --&gt; B[MPPT und DC-Regelung]\n  B --&gt; C[DC-Zwischenkreis]\n  C --&gt; D[Leistungsteil&lt;br/&gt;DC-AC-Wandlung und Filterung]\n  D --&gt; F[AC-Ausgang]\n\n  C --&gt; I[Batterie]\n  I --&gt; C\n\n  style A fill:#ffffff,stroke:#000000,color:#000000\n  style B fill:#ffffff,stroke:#000000,color:#000000\n  style C fill:#ffffff,stroke:#000000,color:#000000\n  style D fill:#ffffff,stroke:#000000,color:#000000\n  style F fill:#ffffff,stroke:#000000,color:#000000\n  style I fill:#ffffff,stroke:#000000,color:#000000\n\n\n\n\n\n\nWichtige Aufgaben des Wechselrichters im Betrieb:\n\nSynchronisation mit dem öffentlichen Netz\nEinhaltung von Spannungs- und Frequenzgrenzen\nSchutzfunktionen bei Fehlern (z. B. Überstrom, Übertemperatur, Netzausfall)\nKommunikation und Monitoring (Leistung, Ertrag, Statusmeldungen)\n\nWichtig ist die Unterscheidung:\n\nMPP: der optimale Punkt auf der Kennlinie\nMPPT (Maximum Power Point Tracking): das Regelverfahren, das diesen Punkt laufend sucht und nachführt\n\nTypische MPPT-Verfahren im Vergleich:\n\nPerturb and Observe (P&O)\nIncremental Conductance\nConstant Voltage (CV)\nFester Arbeitspunkt\n\n\n\n3.2.3 MPPT-Verfahren im Detail\nPerturb and Observe (P&O)\n\nPrinzip: Der Regler ändert den Arbeitspunkt schrittweise und prüft, ob die Leistung steigt oder fällt.\nVorteil: Einfach, robust und in vielen Geräten Standard.\nNachteil: Im stationären Betrieb pendelt das Verfahren um den MPP und verliert dadurch etwas Ertrag.\nTypischer Einsatz: Kleine bis mittlere Anlagen mit moderaten Last- und Wetteränderungen.\n\nIncremental Conductance\n\nPrinzip: Das Verfahren nutzt die MPP-Bedingung \\(\\frac{dP}{dU}=0\\) und bestimmt daraus die Richtung der nächsten Stellgrößenänderung.\nVorteil: Bessere Nachführung bei schnell wechselnder Einstrahlung.\nNachteil: Höherer Rechen- und Messaufwand als P&O.\nTypischer Einsatz: Dynamische Bedingungen, bei denen schnelle und präzise Nachführung wichtig ist.\n\nConstant Voltage (CV)\n\nPrinzip: Die PV-Spannung wird auf einen festen Anteil der Leerlaufspannung geregelt.\nVorteil: Sehr einfach umzusetzen.\nNachteil: Nur Näherung an den MPP, dadurch oft geringerer Ertrag.\nTypischer Einsatz: Einfache oder kostensensitive Systeme.\n\nFester Arbeitspunkt\n\nPrinzip: Betrieb mit fester Spannung oder fester Last ohne Nachführung.\nVorteil: Minimaler Regelaufwand.\nNachteil: Bei wechselnden Bedingungen häufig weit weg vom MPP.\nTypischer Einsatz: Didaktik, Sonderfälle oder stark vereinfachte Systeme.\n\n\n\n3.2.4 Hybrid-Wechselrichter\nHybrid-Wechselrichter kombinieren PV-Wechselrichter und Batteriewechselrichter in einem Gerät. Sie können damit gleichzeitig PV-Erzeugung, Batteriespeicher und Lasten koordinieren.\nTypische Betriebsmodi:\n\nPV versorgt Last direkt: Aktueller Verbrauch wird unmittelbar aus der PV gedeckt.\nPV lädt Batterie: Überschüsse werden gespeichert statt eingespeist.\nBatterie versorgt Last: Bei geringer PV-Leistung oder nachts.\nNetzbezug oder Einspeisung: Je nach Bilanz aus Erzeugung, Verbrauch und Speicherzustand.\n\nVorteile von Hybrid-Wechselrichtern:\n\nweniger Einzelgeräte und oft einfachere Installation\nzentrales Energiemanagement\nbessere Eigenverbrauchsoptimierung\ngute Grundlage für Notstrom- oder Ersatzstromfunktionen (geräteabhängig)\n\nWorauf bei der Auswahl zu achten ist:\n\nkompatible Batteriesysteme und Schnittstellen\nLade-/Entladeleistung und nutzbare Speicherkapazität\nWirkungsgrad im realen Teillastbetrieb\nverfügbare Betriebsmodi (z. B. Backup, Peak Shaving, Zeitfenstersteuerung)\n\nEin vereinfachter Energiepfad lautet:\n\nPV-Module erzeugen DC-Leistung\nMPPT im Wechselrichter oder in einer vorgelagerten DC-DC-Stufe optimiert den Arbeitspunkt\nWechselrichter wandelt in AC um\nAC-Leistung versorgt Lasten oder wird ins Netz eingespeist\n\nJede Umwandlungsstufe hat Verluste. Der Wirkungsgrad wird beschrieben durch \\(\\eta = \\frac{P_{out}}{P_{in}}\\). Gute Wechselrichter erreichen heute typischerweise einen Wirkungsgrad \\(\\eta\\) von über 95 %.\n\n\n3.2.5 Videoempfehlungen zu MPPT\n\nMPPT explained (AKIO TV)\nMPPT What is it and How it works? (Electronoobs)\nMPPT Incremental conductance method concept & flowchart"
   },
   {
     "objectID": "posts/05/index.html#montagesystem",
     "href": "posts/05/index.html#montagesystem",
     "title": "05 Erneuerbare Energiequellen: Photovoltaik",
     "section": "3.3 Montagesystem",
-    "text": "3.3 Montagesystem\nDas Montagesystem dient zur Befestigung der Solarmodule auf dem Dach oder dem Boden. Es muss stabil, wetterfest und optimal ausgerichtet sein, um eine effiziente Energieerzeugung zu gewährleisten."
+    "text": "3.3 Montagesystem\nDas Montagesystem dient zur Befestigung der Solarmodule auf dem Dach oder dem Boden. Es muss stabil, wetterfest und optimal ausgerichtet sein, um eine effiziente Energieerzeugung zu gewährleisten.\nBeispielhafte Hersteller von PV-Montagesystemen:\n\nK2 Systems\nSchletter Group\nRenusol\nEsdec\nAEROCOMPACT\nnovotegra"
   },
   {
     "objectID": "posts/05/index.html#verkabelung-und-anschluss",
     "href": "posts/05/index.html#verkabelung-und-anschluss",
     "title": "05 Erneuerbare Energiequellen: Photovoltaik",
     "section": "3.4 Verkabelung und Anschluss",
-    "text": "3.4 Verkabelung und Anschluss\nDie Verkabelung verbindet die Solarzellen, Wechselrichter und weitere Komponenten miteinander. Der Anschluss an das Stromnetz erfolgt über einen Wechselrichter und einen Zähler, der die eingespeiste Energie erfasst."
-  },
-  {
-    "objectID": "posts/05/index.html#überwachungs--und-steuerungssystem",
-    "href": "posts/05/index.html#überwachungs--und-steuerungssystem",
-    "title": "05 Erneuerbare Energiequellen: Photovoltaik",
-    "section": "3.5 Überwachungs- und Steuerungssystem",
-    "text": "3.5 Überwachungs- und Steuerungssystem\nEin Monitoring-System überwacht die Leistung der Photovoltaikanlage und informiert den Betreiber über den Energieertrag, mögliche Störungen oder Wartungsbedarf. Moderne Anlagen können über Apps oder Online-Plattformen gesteuert und optimiert werden."
+    "text": "3.4 Verkabelung und Anschluss\nTätigkeiten bei Verkabelung und Anschluss:\n\nLeitungswege planen (DC/AC-Trennung, mechanischer Schutz, Brandschutz)\nKabel und Leitungen dimensionieren (Strombelastbarkeit, Spannungsfall, Verlegeart)\nDC-seitige Leitungen verlegen und anschließen (Stringverkabelung, Stecker, Polarität)\nAC-seitige Leitungen vom Wechselrichter zur Verteilung herstellen\nSchutz- und Erdungsmaßnahmen umsetzen (Potentialausgleich, Überspannungsschutz, Abschaltorgane)\nZählerplatz und Einspeisepunkt vorbereiten, Abstimmung mit Netzbetreiber\nPrüfen, dokumentieren, in Betrieb nehmen (Messprotokolle, Anlagenfreigabe)\n\nGültige Normen und Regelwerke (Auszug):\n\nOVE E 8101 (Errichtung von Niederspannungsanlagen)\nOVE/OENORM EN 62548 (Auslegung und Errichtung von PV-Generatoren)\nOVE/OENORM EN 62446-1 (Pruefung, Dokumentation und Inbetriebnahme von PV-Anlagen)\nTOR Erzeuger (Technische und organisatorische Regeln der Netzbetreiber fuer den Netzanschluss)\nTechnische Anschlussbedingungen des jeweils zustaendigen Netzbetreibers (TAEV/TAB)"
   },
   {
     "objectID": "posts/01_welcome_intro_2526/index.html",
@@ -109,7 +137,7 @@
     "href": "index.html",
     "title": "Green Tech Engineering",
     "section": "",
-    "text": "00 Lehrinhalte Green Tech Engineering 2025/26\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nSep 8, 2025\n\n\nLeopold Götsch\n\n\n\n\n\n\n\n\n\n\n\n\n01 Welcome to Green Tech Engineering! 2025/26\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nSep 8, 2025\n\n\nLeopold Götsch\n\n\n\n\n\n\n\n\n\n\n\n\n02 Einführung in die Grüne Technologie: Physikalische Grundlagen\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nSep 19, 2024\n\n\nLeopold Götsch\n\n\n\n\n\n\n\n\n\n\n\n\n05 Erneuerbare Energiequellen: Photovoltaik\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nOct 1, 2024\n\n\nLeopold Götsch\n\n\n\n\n\nNo matching items"
+    "text": "00 Lehrinhalte Green Tech Engineering 2025/26\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nSep 8, 2025\n\n\nLeopold Götsch\n\n\n\n\n\n\n\n\n\n\n\n\n01 Welcome to Green Tech Engineering! 2025/26\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nSep 8, 2025\n\n\nLeopold Götsch\n\n\n\n\n\n\n\n\n\n\n\n\n02 Einführung in die Grüne Technologie: Physikalische Grundlagen\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nSep 19, 2024\n\n\nLeopold Götsch\n\n\n\n\n\n\n\n\n\n\n\n\n05 Erneuerbare Energiequellen: Photovoltaik\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nMay 27, 2026\n\n\nLeopold Götsch\n\n\n\n\n\n\n\n\n\n\n\n\nGreen Transport: Trains\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nDec 3, 2025\n\n\nLeopold Götsch\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
