@@ -1,0 +1,107 @@
+---
+title: "07 Green Energy: Hydropower"
+author: "Leopold Götsch"
+date: "2025-11-06"
+categories: [news]
+page-layout: article
+image: title_image.jpeg
+draft: true
+format:
+  html:
+    toc: true
+    math: true
+    number-sections: true
+---
+
+
+# Theory on hydropower - from setup to efficiency
+
+## Layout of a hydropower plant
+
+A hydropower plant converts the potential and kinetic energy of water into electricity. Below is a practical, skimmable layout from upstream to grid:
+
+- Reservoir or river reach: Stores or channels water; sets available head and flow.
+- Dam and intake structure: Gates, trash racks, and screens keep debris out.
+- Headrace tunnel/canal: Conveys water from intake; often includes a surge tank to absorb pressure transients.
+- Penstock: High-pressure pipe carrying water to the turbine; designed for head, flow, and water hammer.
+- Turbine: Converts water energy to shaft power. Common types:
+  - Pelton: high head, low flow (impulse).
+  - Francis: medium head/flow (reaction).
+  - Kaplan/Propeller: low head, high flow (reaction, adjustable blades).
+- Draft tube: Recovers kinetic energy and discharges water to tailrace.
+- Generator: Converts mechanical shaft power to electrical power.
+- Transformer and switchgear: Steps up voltage; protection and interconnection.
+- Tailrace: Returns water to the river; avoid submergence/backpressure.
+- Spillway and bypasses: Safely pass floods without using the turbine.
+- Control & auxiliaries: Governors, AVR/excitation, protection, lubrication, cooling, HVAC, monitoring.
+
+End-to-end flow sequence:
+1) Upstream water level provides head.
+2) Intake opens; water passes screens.
+3) Headrace/penstock conveys flow; surge tank limits pressure spikes.
+4) Turbine converts water energy; governor sets speed/power.
+5) Generator produces electricity; AVR holds voltage/reactive power.
+6) Transformer steps up to grid voltage; breakers connect to substation.
+7) Tailrace returns water downstream.
+
+Key performance relation:
+
+$$P = \rho\, g\, Q\, H\, \eta$$
+
+Where: $\rho$ is water density (~1000 kg/m³), $g$ is 9.81 m/s², $Q$ is flow (m³/s), $H$ is net head (m), and $\eta$ is overall efficiency (turbine × generator × mechanical).
+
+Example: If H = 50 m, Q = 20 m³/s, and $\eta = 0.9$, then $P \approx 1000 \times 9.81 \times 20 \times 50 \times 0.9 \approx 8.8$ MW.
+
+Variants to know:
+- Storage (reservoir) plants: Energy buffering, peaking, flood control, irrigation.
+- Run-of-river: Minimal storage; high efficiency, lower flexibility.
+- Pumped-storage: Two reservoirs; pump up off-peak, generate on-peak (grid-scale storage).
+
+## How a power plant works (general)
+
+Common building blocks across technologies:
+- Primary energy: Water head/flow, fuel chemical energy, wind kinetic energy, solar irradiance, geothermal heat, nuclear fission.
+- Prime mover: Turbine (hydraulic/steam/gas), engine, or none for PV.
+- Generator and excitation: Converts shaft power to electricity; AVR controls voltage/reactive power.
+- Grid interface: Transformers, breakers, relays; power electronics as needed (inverters/converters).
+- Controls: Governor (frequency/active power), AVR (voltage/reactive), start/stop, ramping, safety interlocks.
+- Balance-of-plant: Cooling, lubrication, fuel/water handling, filtration, HVAC, fire protection, drainage, monitoring.
+
+Operational objectives:
+- Support frequency (active power) and voltage (reactive power).
+- Dispatch per operator/market with ramp and limit compliance.
+- Protect assets (faults, overloads, transients).
+- Coordinate syncing, islanding, and black start (where applicable).
+
+## Technology snapshots and differences
+
+- Hydropower: High efficiency, fast response, low OPEX; site-dependent, environmental constraints; strong for peaking/regulation.
+- Thermal (coal/gas/biomass): Fuel → boiler/combustor → steam/gas turbine → generator; slower ramp (steam), emissions/fuel logistics.
+- Nuclear: Steam cycle from reactor heat; high availability, low marginal cost; baseload with stringent safety systems.
+- Wind: Rotor → gearbox/direct-drive → generator → converter; variable output; forecasting and grid-forming inverters help.
+- Solar PV: Modules → DC → inverter → AC; no rotating mass; power electronics handle grid support; zero fuel cost, variable output.
+- Geothermal: Flash/binary cycles using hot brines; steady baseload where resources permit.
+
+## Efficiency and losses (hydro focus)
+
+- Hydraulic: Intake, bends, friction, penstock, draft tube.
+- Turbine: Peak near design point; manage off-design losses and cavitation via runner/wicket-gate optimization.
+- Mechanical/electrical: Bearings, seals, generator copper/iron, transformer losses.
+- Debris/sediment: Screens and desanders reduce wear and performance degradation.
+
+Rule-of-thumb turbine mapping:
+- Pelton: head > 300 m, lower flows.
+- Francis: head ~ 30–300 m, medium flows.
+- Kaplan/Propeller/Bulb: head < 30 m, high flows.
+
+## Quick glossary
+
+- Head (H): Vertical difference between upstream water level and turbine discharge (net head after losses).
+- Flow (Q): Water volume rate through turbine.
+- Capacity factor: Actual energy vs. if at rated power 100% of the time.
+- Governor: Controls turbine gates/nozzles for power/speed.
+- AVR: Automatic Voltage Regulator for generator excitation.
+
+---
+
+Tip: In Quarto, you can render equations and diagrams; consider adding a simple site-specific schematic later (e.g., with Mermaid or an imported image).

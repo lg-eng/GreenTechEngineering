@@ -1,0 +1,73 @@
+---
+title: "Green Transport: Trains"
+author: "Leopold Götsch"
+date: "2025-12-03"
+categories: [news]
+page-layout: article
+image: title_image.jpeg
+draft: false
+format:
+  html:
+    toc: true
+    math: true
+    number-sections: true
+---
+
+
+# Why trains are sustainable and efficient
+Trains are considered one of the most sustainable and efficient modes of transportation for several reasons:
+1. **Energy Efficiency**: Trains can move a large number of passengers or a significant amount of freight with relatively low energy consumption per mile compared to cars and airplanes. This is due to the reduced friction between steel wheels and steel rails, which allows trains to travel more efficiently.
+2. **Lower Emissions**: Electric trains produce significantly lower greenhouse gas emissions compared to road vehicles and airplanes, especially when powered by renewable energy sources. Even diesel-powered trains tend to be more fuel-efficient than trucks and cars on a per-ton-mile basis.
+3. **Mass Transit Capability**: Trains can carry hundreds of passengers at once, reducing the number of individual vehicles on the road. This mass transit capability helps to decrease traffic congestion and the associated emissions from idling vehicles.
+4. **Land Use Efficiency**: Railways require less land per passenger or ton of freight transported compared to highways. This efficient use of land helps to preserve natural habitats and reduces urban sprawl.
+5. **Durability and Longevity**: Trains and railway infrastructure tend to have longer lifespans compared to road vehicles and highways, leading to less frequent replacements and lower resource consumption over time.
+
+# Train technologies terminology and basics
+Understanding train technologies involves familiarizing oneself with several key terms and concepts:
+1. **Locomotive**: (German: Lokomotive)
+2. **Rolling Stock**: (German: Rollmaterial) Refers to all the vehicles that move on a railway, including locomotives, passenger cars, and freight wagons.
+3. **Gauge**: (German: Spurweite) The distance between the inner sides of the two parallel rails that make up a railway track.
+4. **Electrification**: (German: Elektrifizierung) The process of powering trains using electricity, typically through overhead lines or a third rail.
+5. **High-Speed Rail**: (German: Hochgeschwindigkeitsbahn) A type of passenger train that operates significantly faster than traditional rail traffic, often exceeding speeds of 250 km/h (155 mph).
+6. **Signaling Systems**: (German: Signalsysteme) Technologies used to manage train traffic and ensure safety on the rail network.
+7. **Freight Trains**: (German: Güterzüge)
+8. **Passenger Trains**: (German: Personenzüge)
+9. **Intermodal Transport**: (German: Intermodaler Verkehr) The use of multiple modes of transportation (e.g., rail, road, sea) to move goods or passengers efficiently.
+10. **Track Infrastructure**: (German: Gleisinfrastruktur) The physical components of the railway system, including tracks, stations, and signaling equipment.
+
+# Basics of elecrtric trains
+Electric trains draw high‑voltage power from the infrastructure, step it down, convert it to controlled AC for traction motors, and can feed energy back to the grid when braking. The core subsystems are:
+
+- Power collection: catenary/third rail and the pantograph/collector shoe
+- High‑voltage transformer and converter/inverter
+- Traction motors in the bogies
+- Regenerative braking and onboard auxiliaries
+
+## Power collection (catenary + pantograph)
+![Pantograph collecting current from the overhead catenary, [by Sese Ingolstadt](https://commons.wikimedia.org/w/index.php?title=User:Sese_Ingolstadt&action=edit&redlink=1) [CC-SA-2.5](https://creativecommons.org/licenses/by-nc-sa/2.5/in/deed.de#ref-appropriate-credit) ](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Stromabnehmer_ICE_3.jpg/1200px-Stromabnehmer_ICE_3.jpg)
+
+The pantograph keeps steady contact with the contact wire using springs and pneumatic force while the catenary’s stagger reduces groove wear on the carbon strip. In Austria and Germany, 15 kV AC at 16.7 Hz is common; other countries use different voltages and DC systems.
+The 16.7 Hz frequency is a legacy of early 20th-century railway electrification, chosen to reduce interference with telegraph and telephone systems and to optimize the performance of early electric traction motors.
+
+## Transformer and power electronics
+![HV transformer and IGBT inverter concept](https://commons.wikimedia.org/wiki/Special:FilePath/Power%20electronics%20inverter%20block%20diagram.svg){fig-alt="Block diagram showing transformer, rectifier, DC link, and inverter"}
+{fig-attr="Image via Wikimedia Commons (CC BY-SA)."}
+
+High‑voltage AC from the line is stepped down by a transformer, rectified, buffered in a DC link, and modulated by an IGBT/SiC inverter to variable‑frequency AC for traction motors.
+
+## Traction motors in the bogie
+![Motorized bogie with axle‑hung motors and gearboxes](https://commons.wikimedia.org/wiki/Special:FilePath/E5%20Series%20Shinkansen%20bogie.jpg){fig-alt="Shinkansen bogie showing traction motors and running gear"}
+{fig-attr="Image via Wikimedia Commons (CC BY-SA)."}
+
+Modern EMUs use 3‑phase asynchronous or permanent‑magnet synchronous motors. Torque passes through a reduction gearbox to the axle; suspension isolates vibration.
+
+## Regenerative braking
+![Regenerative braking energy flow](https://commons.wikimedia.org/wiki/Special:FilePath/Regenerative_braking.svg){fig-alt="Diagram of energy flowing from wheels back through inverter to the grid during braking"}
+{fig-attr="Image via Wikimedia Commons (CC BY-SA)."}
+
+During braking the inverter operates as a rectifier, returning energy to the catenary when the grid accepts it, otherwise to on‑train resistors or batteries.
+
+Notes:
+- The images above are sourced from Wikimedia Commons and are licensed under Creative Commons (typically CC BY-SA). Follow each file page for exact authorship and license terms.
+- Replace an image with a different CC‑licensed alternative by swapping the Special:FilePath URL; Quarto will keep the captions and attributions.
+

@@ -1,10 +1,11 @@
 ---
-title: "01 Welcome to Green Tech Engineering!"
+title: "01 Welcome to Green Tech Engineering! 2425"
 author: "Leopold Götsch"
 date: "2024-07-28"
 categories: [news]
 page-layout: article
 image: Team.jpeg
+draft: true
 ---
 
 Einführung in die Grüne Technologie: Definition und Bedeutung von grüner Technologie

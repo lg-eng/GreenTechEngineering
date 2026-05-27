@@ -1,0 +1,108 @@
+---
+title: "06 Green Transport: Elektromobilität"
+author: "Leopold Götsch"
+date: "2025-01-14"
+categories: [news]
+page-layout: article
+image: title_image.jpeg
+draft: true
+format:
+  html:
+    toc: true
+    math: true
+    number-sections: true
+---
+
+
+# Projekt: Bau eines Modell-Elektroautos aus recycelten Komponenten
+
+## Projektziel  
+Ziel des Projekts ist der Bau eines funktionstüchtigen Elektroautos im Modellmaßstab, das ausschließlich aus recycelten Komponenten gefertigt wird. Das Fahrzeug soll für einen Wettbewerb konzipiert sein, bei dem es darum geht, 3 x 100 Meter Sprints in kürzester Zeit zu bewältigen. Der Antrieb des Fahrzeugs wird durch eine Batterie gewährleistet, die teilweise mittels fest auf dem Fahrzeug installierter Photovoltaik (PV)-Module geladen wird.
+
+---
+
+## Anforderungen  
+
+1. **Nachhaltigkeit**  
+   - Verwendung von recycelten oder wiederverwendeten Komponenten für den Bau des gesamten Fahrzeugs.  
+   - Integration von Solarenergie durch fest verbaute PV-Module, um die Batterie während des Rennens teilweise zu laden.  
+
+2. **Batterie und Energieversorgung**  
+   - Die Batterie muss genügend Kapazität besitzen, um das Fahrzeug für drei 100-Meter-Sprints anzutreiben.  
+   - Die PV-Module sollen während der Fahrt und in den Pausen unterstützend Energie liefern
+
+3. **Wettbewerbsregeln**  
+   - Es gewinnt das Team, dessen Fahrzeug die 3 x 100 Meter am schnellsten bewältigt.  
+   - Das Fahrzeug muss eigenständig fahren und dabei die vorgegebenen Energiequellen (Batterie und PV) nutzen.  
+
+4. **Design und Funktionalität**  
+   - Die Strecke ist gerade, daher benötigt das Fahrzeug keine Lenkung.
+   - Das Gewicht des Fahrzeugs sollte minimal gehalten werden, um die Effizienz zu maximieren.  
+   - Der Start des Fahrzeug erfolgt synchron über einen elektrischen Kontakt. 
+   - Das Fahrzeug muss selbständig nach 100 m anhalten.
+   - Sicherheitsaspekte wie Kurzschlussschutz und Überhitzungsschutz müssen berücksichtigt werden.
+
+---
+
+## Anforderungen an die Teams  
+
+- **Recyclingkompetenz**: Teams müssen kreativ sein, um aus recycelten Materialien ein leistungsfähiges Modellauto zu bauen.  
+- **Ingenieurtechnische Umsetzung**: Die Entwicklung einer Batterie-PV-Kombination, die die Energieanforderungen für den Wettbewerb erfüllt, steht im Mittelpunkt.  
+- **Zeitmanagement**: Teams müssen in der Lage sein, ihre Konstruktionen innerhalb eines festgelegten Zeitraums zu realisieren und zu testen.  
+
+---
+
+## Bewertungskriterien  
+
+- **Geschwindigkeit**: Die kürzeste Gesamtzeit für die 3 x 100 Meter ist ausschlaggebend.  
+- **Effizienz**: Effiziente Nutzung der Batterie und PV-Module während der Rennen in Watt pro Meter.
+- **Kreativität**: Innovativer Einsatz von recycelten Materialien und originelle technische Lösungen.  
+- **Nachhaltigkeit**: Einhaltung der Vorgaben, ausschließlich recycelte Komponenten zu verwenden.  
+
+---
+
+## Optionale Erweiterungen
+Hier sind einige sinnvolle und spannende Erweiterungen für das Projekt, die den Wettbewerb interessanter gestalten und den Lerneffekt erhöhen könnten:  
+
+---
+
+### **Technologische Erweiterungen**  
+
+1. **Sensorik und Telemetrie**  
+   - Integration von Sensoren, die während der Fahrt Daten wie Geschwindigkeit, Batterieladung, Stromverbrauch oder PV-Energieerzeugung messen.  
+   - Echtzeit-Übertragung der Daten an eine Basisstation für Analysezwecke.  
+
+2. **Adaptive PV-Technologie**  
+   - Entwicklung eines Mechanismus, der die PV-Module optimal zur Sonne ausrichtet, um die Energieausbeute während der Fahrt zu maximieren.  
+
+3. **Rekuperationssysteme**  
+   - Implementierung eines Systems zur Energierückgewinnung, z. B. durch Nutzung eines Bremsgenerators beim Abbremsen.  
+
+4. **KI-gestütztes Energiemanagement**  
+   - Einsatz von Algorithmen zur Optimierung der Energieverteilung zwischen Batterie und PV-Modulen, um maximale Effizienz zu erreichen.  
+
+---
+
+### **Nachhaltigkeits-Erweiterungen**  
+
+1. **Materialbewertung**  
+   - Teams erhalten zusätzliche Punkte, wenn sie besonders innovative oder schwierige Recyclingmaterialien verwenden, z. B. alte Smartphone-Batterien oder ausrangierte Elektronik.  
+
+2. **Lebenszyklusbewertung (LCA)**  
+   - Einführung einer Analyse der Umweltbilanz jedes Modells, z. B. der CO₂-Fußabdruck der verwendeten Materialien.  
+
+3. **Recycling-Workshops**  
+   - Durchführung von Workshops, in denen Teams lernen, wie man sicher und effektiv recycelte Komponenten verarbeitet.  
+
+---
+
+### **Design- und Kreativitätserweiterungen**  
+
+1. **Themenbasierte Fahrzeuge**  
+   - Jedes Team muss sein Fahrzeug nach einem bestimmten Thema gestalten (z. B. futuristisch, retro, biologisch inspiriert).  
+   - Bewertungskategorien wie „ästhetisches Design“ oder „Innovativstes Fahrzeug“.  
+
+2. **Mechanische Sonderfunktionen**  
+   - Fahrzeuge könnten Zusatzfunktionen wie einklappbare Solarpanels oder selbst auslösende Startmechanismen integrieren.  
+
+---

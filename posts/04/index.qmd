@@ -5,7 +5,7 @@ date: "2024-09-26"
 categories: [news]
 page-layout: article
 image: title_image.jpeg
-draft: false
+draft: true
 format:
   html:
     toc: true

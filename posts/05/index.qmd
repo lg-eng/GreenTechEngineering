@@ -1,7 +1,7 @@
 ---
 title: "05 Erneuerbare Energiequellen: Photovoltaik"
 author: "Leopold Götsch"
-date: "2024-10-01"
+date: "2026-05-27"
 categories: [news]
 page-layout: article
 image: title_image.jpeg
@@ -20,52 +20,355 @@ https://pvaustria.at/daten-fakten/  -->
 
 # Marktanteil der Photovoltaik an der Stromerzeugung  
 
-Die Photovoltaik ist eine der wichtigsten erneuerbaren Energiequellen und hat in den letzten Jahren einen starken Zuwachs an Bedeutung erfahren.   
-In Österreich beträgt der Anteil der Photovoltaik an der Stromerzeugung rund 10% @InEnMarkt2023, Seite 28. 
-Die durchschnittlichen Kosten für Photovoltaikanlagen in Österreich lagen im Jahr 2023 bei 1.699 Euro pro Kilowattpeak (kWp) netto @InEnMarkt2023, Seite 28.
+Die Photovoltaik ist eine der wichtigsten erneuerbaren Energiequellen und hat in den letzten Jahren einen starken Zuwachs an Bedeutung erfahren.  
+In Österreich deckt die Photovoltaik inzwischen mehr als 17 % des nationalen Strombedarfs @InEnMarkt2024Kurz, Seite 18. 
+Der mittlere Systempreis für eine schlüsselfertig installierte, netzgekoppelte 5 kWpeak Photovoltaikanlage lag im Jahr 2024 bei rund 1.551 Euro pro kWpeak exkl. MwSt. @InEnMarkt2024Kurz, Seite 18.
 
 # Kennzahlen der Photovoltaik
 
 ## Einheiten
-- **Wattpeak (Wp)**: Die Leistung einer Photovoltaikanlage wird in Kilowattpeak (kWp) gemessen und gibt die Spitzenleistung der Photovoltaik Anlage an.
+- **Wattpeak (Wp) / Kilowattpeak (kWp)**: Übliche Angabe der PV-Nennleistung unter Standard-Testbedingungen (STC).
+- **Watt (W)**: Einheit der Leistung $P$.
+- **Kilowattstunde (kWh)**: Einheit der elektrischen Energie $E$.
+- **Euro pro Kilowattpeak (€/kWp)**: Übliche Kennzahl für spezifische Investitionskosten.
+- **Jahresertrag (kWh/(kWpa))**: Elektrische Energie pro installierter Nennleistung und Jahr.
 
-- **Watt (W)**: Die Leistung einer Photovoltaikanlage wird in Watt (W) gemessen und gibt die momentane Leistung der Photovoltaik Anlage an.
-
-- **Kilowattstunde (kWh)**: Die Kilowattstunde ist eine Einheit für elektrische Energie und gibt an, wie viel Energie eine Photovoltaikanlage pro Zeiteinheit erzeugen kann.
-
-- **Euro pro Kilowattpeak (€/kWp)**: Die Investitionskosten für eine Photovoltaikanlage werden in Euro pro Kilowattpeak (€/kWp) angegeben.
-
-- **Jahresertrag (kWh/kWp)**: Der Jahresertrag einer Photovoltaikanlage gibt an, wie viel elektrische Energie sie pro Kilowattpeak und Jahr erzeugen kann.
+Hinweis zur Schreibweise von Einheiten (SI/DIN-üblich): Zwischen Zahlenwert und Einheit steht ein Leerzeichen, z. B. 10 kW, 340 W, 25 °C, 10 %.
 
 
 ## Kennzahlen der Photovoltaik
 
-- **Wirkungsgrad**: Der Wirkungsgrad einer Photovoltaikanlage gibt an, wie effizient sie Sonnenlicht in elektrische Energie umwandeln kann. Moderne Solarzellen haben einen Wirkungsgrad von bis zu 22%.
+- **Wirkungsgrad PV Paneele**: Der Wirkungsgrad einer Photovoltaikanlage gibt an, wie effizient sie Sonnenlicht in elektrische Energie umwandeln kann. Typische Modulwerte liegen bei etwa 18 % bis 22 % (Top-Module teils etwas darueber).
 
-- **Installierte Leistung**: Die Installierte Leistung einer Photovoltaikanlage wird in Kilowattpeak (kWp) gemessen und gibt an, wie viel Leistung die Anlage maximal erzeugen kann.
+- **Wirkungsgrad Wechselrichter**: Gibt an, wie effizient der Wechselrichter DC in AC umwandelt. Typische europaeische Wirkungsgrade liegen bei etwa 96 % bis 99 %.
 
-- **Ertrag**: Der Ertrag einer Photovoltaikanlage wird in Kilowattstunden (kWh) gemessen und gibt an, wie viel elektrische Energie die Anlage pro Zeiteinheit erzeugt hat.
+- **Wirkungsgrad Batterie (Roundtrip)**: Gibt an, wie viel der gespeicherten Energie beim Laden und Entladen nutzbar bleibt. Typische Werte fuer Lithium-Ionen-Speicher liegen bei etwa 85 % bis 95 %.
 
-- **Investitionskosten**: Die Investitionskosten geben an wie viel die Anlage pro Kilowattpeak (kWp) gekostet hat. 
+- **Installierte Leistung**: Die installierte Leistung einer Photovoltaikanlage wird in Kilowattpeak (kWp) gemessen und gibt an, wie viel Leistung die Anlage maximal erzeugen kann. Typisch fuer Einfamilienhaeuser sind etwa 5 kWp bis 15 kWp.
 
-- **Amortisationszeit**: Die Amortisationszeit einer Photovoltaikanlage gibt an, wie lange es dauert, bis die Investitionskosten durch die eingesparten Stromkosten und die Einspeisevergütung abgedeckt sind.
+- **Ertrag**: Der Ertrag einer Photovoltaikanlage wird in Kilowattstunden (kWh) gemessen und gibt an, wie viel elektrische Energie die Anlage erzeugt. In Oesterreich liegen typische Jahresertraege grob bei ca. 900 bis 1.200 kWh pro kWp und Jahr (abhängig von Standort, Ausrichtung und Verschattung).
+
+- **Investitionskosten**: Die Investitionskosten geben an, wie viel die Anlage pro Kilowattpeak (kWp) gekostet hat. Als typische Groessenordnung fuer kleine bis mittlere Dachanlagen gelten etwa 1.200 bis 2.000 EUR pro kWp.
+
+- **Amortisationszeit**: Die Amortisationszeit einer Photovoltaikanlage gibt an, wie lange es dauert, bis die Investitionskosten durch eingesparte Stromkosten und Einspeiseerloese abgedeckt sind. Typische Werte liegen oft im Bereich von etwa 8 bis 15 Jahren.
 
 # Komponenten einer Photovoltaikanlage  
 
 ## Solarzellen  
-Solarzellen bestehen aus Halbleitermaterialien wie Silizium, die Sonnenlicht in elektrische Energie umwandeln. Die gängigsten Solarzellen sind monokristalline und polykristalline Zellen, die in Modulen verbaut werden.
+Solarzellen bestehen aus Halbleitermaterialien wie Silizium und wandeln Sonnenlicht direkt in elektrische Energie um (photovoltaischer Effekt). Trifft Licht auf die Zelle, entstehen freie Ladungsträger, die durch das innere elektrische Feld getrennt werden. Dadurch fließt ein Gleichstrom.
+
+Für den Betrieb sind vor allem drei Größen wichtig:
+
+- Spannung $U$
+- Strom $I$
+- Leistung $P$ mit $P = U \cdot I$
+
+Die Solarzelle hat keine lineare Kennlinie. Deshalb gibt es einen optimalen Arbeitspunkt mit maximaler Leistung, den **Maximum Power Point (MPP)**. Dieser Punkt hängt von den Umgebungsbedingungen ab:
+
+- höhere Einstrahlung: höherer Strom $I$, meist höhere Leistung $P$
+- höhere Zelltemperatur: geringere Spannung $U$, meist geringere Leistung $P$
+
+Für die Praxis bedeutet das: Der Energieertrag der Solarzelle wird dann maximal, wenn sie möglichst nahe am MPP betrieben wird.
+
+### Diagramm: I-U- und P-U-Kennlinie mit MPP
+
+```{python}
+#| label: fig-iv-pv-mpp
+#| fig-cap: "Typische I-U- und P-U-Kennlinie einer PV-Zelle"
+#| echo: false
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Einfaches didaktisches Modell (nicht datenblattgenau)
+u_oc = 40.0  # Leerlaufspannung in V
+i_sc = 10.0  # Kurzschlussstrom in A
+
+u = np.linspace(0, u_oc, 400)
+i = i_sc * np.maximum(0, 1 - (u / u_oc) ** 3)
+p = u * i
+
+idx_mpp = np.argmax(p)
+u_mpp, i_mpp, p_mpp = u[idx_mpp], i[idx_mpp], p[idx_mpp]
+
+fig, ax1 = plt.subplots(figsize=(8, 4.8))
+
+line_i = ax1.plot(u, i, color="#1f77b4", lw=2, label="I-U-Kennlinie")
+ax1.set_xlabel("Spannung $U$ in V")
+ax1.set_ylabel("Strom $I$ in A", color="#1f77b4")
+ax1.tick_params(axis="y", labelcolor="#1f77b4")
+ax1.grid(alpha=0.25)
+
+ax2 = ax1.twinx()
+line_p = ax2.plot(u, p, color="#d62728", lw=2, label="P-U-Kennlinie")
+ax2.set_ylabel("Leistung $P$ in W", color="#d62728")
+ax2.tick_params(axis="y", labelcolor="#d62728")
+
+ax2.scatter([u_mpp], [p_mpp], color="black", zorder=5)
+ax2.annotate(
+  f"MPP\n$U$ = {u_mpp:.1f} in V\n$I$ = {i_mpp:.1f} in A\n$P$ = {p_mpp:.0f} in W",
+  xy=(u_mpp, p_mpp),
+  xytext=(u_mpp + 2.5, p_mpp * 0.72),
+  arrowprops=dict(arrowstyle="->", lw=1.2),
+  fontsize=9,
+)
+
+lines = line_i + line_p
+labels = [l.get_label() for l in lines]
+ax1.legend(lines, labels, loc="upper center")
+
+plt.tight_layout()
+plt.show()
+```
+
+### Diagramm: Temperatureinfluss auf die P-U-Kennlinie
+
+```{python}
+#| label: fig-temp-mpp-shift
+#| fig-cap: "Einfluss der Zelltemperatur auf die P-U-Kennlinie und den MPP"
+#| echo: false
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+temperaturen = [25, 45, 65]
+u_oc_25 = 40.0
+i_sc_25 = 10.0
+
+fig, ax = plt.subplots(figsize=(8, 4.8))
+
+for t in temperaturen:
+  # Vereinfachte Koeffizienten fuer didaktische Darstellung
+  u_oc = u_oc_25 * (1 - 0.003 * (t - 25))
+  i_sc = i_sc_25 * (1 + 0.0005 * (t - 25))
+
+  u = np.linspace(0, u_oc, 350)
+  i = i_sc * np.maximum(0, 1 - (u / u_oc) ** 3)
+  p = u * i
+
+  idx_mpp = np.argmax(p)
+  ax.plot(u, p, lw=2, label=f"{t} °C")
+  ax.scatter([u[idx_mpp]], [p[idx_mpp]], s=25)
+
+ax.set_xlabel("Spannung $U$ in V")
+ax.set_ylabel("Leistung $P$ in W")
+ax.set_title("Hoehere Zelltemperatur verschiebt den MPP zu geringerer Spannung")
+ax.grid(alpha=0.25)
+ax.legend(title="Zelltemperatur")
+plt.tight_layout()
+plt.show()
+```
 
 ## Wechselrichter  
-Wechselrichter wandeln den erzeugten Gleichstrom der Solarzellen in Wechselstrom um, der im Stromnetz genutzt werden kann. Moderne Wechselrichter verfügen über intelligente Steuerungssysteme und Monitoringfunktionen.
+Der Wechselrichter wandelt den Gleichstrom (DC) der PV-Module in netzkonformen Wechselstrom (AC) um, damit Verbraucher versorgt oder Energie ins Netz eingespeist werden kann. Moderne Geräte übernehmen zusätzlich die Regelung des Arbeitspunkts der PV-Module.
+
+### Grundlegende Funktionsbeschreibung
+
+Ein Wechselrichter arbeitet vereinfacht in drei Stufen:
+
+1. **DC-Eingang und Regelung**: Der Eingang wird überwacht, und der Arbeitspunkt wird so eingestellt, dass die PV-Anlage möglichst nahe am MPP arbeitet.
+2. **Leistungsschalter-Stufe**: Leistungshalbleiter (z. B. MOSFETs oder IGBTs) schalten den Gleichstrom mit hoher Frequenz.
+3. **Ausgangsaufbereitung**: Über Filter und Regelung entsteht eine stabile Wechselspannung, die zu Netzfrequenz und Netzspannung passt.
+
+### Blockschaltbild
+
+```{mermaid}
+%%{init: {'theme':'base','themeVariables': { 'primaryColor':'#ffffff', 'primaryBorderColor':'#000000', 'primaryTextColor':'#000000', 'lineColor':'#000000', 'secondaryColor':'#ffffff', 'tertiaryColor':'#ffffff' }, 'flowchart': { 'curve':'linear' } }}%%
+flowchart LR
+  A[PV-Eingang DC] --> B[MPPT und DC-Regelung]
+  B --> C[DC-Zwischenkreis]
+  C --> D[Leistungsteil<br/>DC-AC-Wandlung und Filterung]
+  D --> F[AC-Ausgang]
+
+  C --> I[Batterie]
+  I --> C
+
+  style A fill:#ffffff,stroke:#000000,color:#000000
+  style B fill:#ffffff,stroke:#000000,color:#000000
+  style C fill:#ffffff,stroke:#000000,color:#000000
+  style D fill:#ffffff,stroke:#000000,color:#000000
+  style F fill:#ffffff,stroke:#000000,color:#000000
+  style I fill:#ffffff,stroke:#000000,color:#000000
+```
+
+Wichtige Aufgaben des Wechselrichters im Betrieb:
+
+- Synchronisation mit dem öffentlichen Netz
+- Einhaltung von Spannungs- und Frequenzgrenzen
+- Schutzfunktionen bei Fehlern (z. B. Überstrom, Übertemperatur, Netzausfall)
+- Kommunikation und Monitoring (Leistung, Ertrag, Statusmeldungen)
+
+Wichtig ist die Unterscheidung:
+
+- **MPP**: der optimale Punkt auf der Kennlinie
+- **MPPT (Maximum Power Point Tracking)**: das Regelverfahren, das diesen Punkt laufend sucht und nachführt
+
+Typische MPPT-Verfahren im Vergleich:
+
+- **Perturb and Observe (P&O)**
+- **Incremental Conductance**
+- **Constant Voltage (CV)**
+- **Fester Arbeitspunkt**
+
+### MPPT-Verfahren im Detail
+
+**Perturb and Observe (P&O)**
+
+- Prinzip: Der Regler ändert den Arbeitspunkt schrittweise und prüft, ob die Leistung steigt oder fällt.
+- Vorteil: Einfach, robust und in vielen Geräten Standard.
+- Nachteil: Im stationären Betrieb pendelt das Verfahren um den MPP und verliert dadurch etwas Ertrag.
+- Typischer Einsatz: Kleine bis mittlere Anlagen mit moderaten Last- und Wetteränderungen.
+
+**Incremental Conductance**
+
+- Prinzip: Das Verfahren nutzt die MPP-Bedingung $\frac{dP}{dU}=0$ und bestimmt daraus die Richtung der nächsten Stellgrößenänderung.
+- Vorteil: Bessere Nachführung bei schnell wechselnder Einstrahlung.
+- Nachteil: Höherer Rechen- und Messaufwand als P&O.
+- Typischer Einsatz: Dynamische Bedingungen, bei denen schnelle und präzise Nachführung wichtig ist.
+
+**Constant Voltage (CV)**
+
+- Prinzip: Die PV-Spannung wird auf einen festen Anteil der Leerlaufspannung geregelt.
+- Vorteil: Sehr einfach umzusetzen.
+- Nachteil: Nur Näherung an den MPP, dadurch oft geringerer Ertrag.
+- Typischer Einsatz: Einfache oder kostensensitive Systeme.
+
+**Fester Arbeitspunkt**
+
+- Prinzip: Betrieb mit fester Spannung oder fester Last ohne Nachführung.
+- Vorteil: Minimaler Regelaufwand.
+- Nachteil: Bei wechselnden Bedingungen häufig weit weg vom MPP.
+- Typischer Einsatz: Didaktik, Sonderfälle oder stark vereinfachte Systeme.
+
+### Hybrid-Wechselrichter
+
+Hybrid-Wechselrichter kombinieren PV-Wechselrichter und Batteriewechselrichter in einem Gerät. Sie können damit gleichzeitig PV-Erzeugung, Batteriespeicher und Lasten koordinieren.
+
+Typische Betriebsmodi:
+
+- **PV versorgt Last direkt**: Aktueller Verbrauch wird unmittelbar aus der PV gedeckt.
+- **PV lädt Batterie**: Überschüsse werden gespeichert statt eingespeist.
+- **Batterie versorgt Last**: Bei geringer PV-Leistung oder nachts.
+- **Netzbezug oder Einspeisung**: Je nach Bilanz aus Erzeugung, Verbrauch und Speicherzustand.
+
+Vorteile von Hybrid-Wechselrichtern:
+
+- weniger Einzelgeräte und oft einfachere Installation
+- zentrales Energiemanagement
+- bessere Eigenverbrauchsoptimierung
+- gute Grundlage für Notstrom- oder Ersatzstromfunktionen (geräteabhängig)
+
+Worauf bei der Auswahl zu achten ist:
+
+- kompatible Batteriesysteme und Schnittstellen
+- Lade-/Entladeleistung und nutzbare Speicherkapazität
+- Wirkungsgrad im realen Teillastbetrieb
+- verfügbare Betriebsmodi (z. B. Backup, Peak Shaving, Zeitfenstersteuerung)
+
+Ein vereinfachter Energiepfad lautet:
+
+1. PV-Module erzeugen DC-Leistung
+2. MPPT im Wechselrichter oder in einer vorgelagerten DC-DC-Stufe optimiert den Arbeitspunkt
+3. Wechselrichter wandelt in AC um
+4. AC-Leistung versorgt Lasten oder wird ins Netz eingespeist
+
+Jede Umwandlungsstufe hat Verluste. Der Wirkungsgrad wird beschrieben durch $\eta = \frac{P_{out}}{P_{in}}$. Gute Wechselrichter erreichen heute typischerweise einen Wirkungsgrad $\eta$ von über 95 %.
+
+### Videoempfehlungen zu MPPT
+
+- [MPPT explained (AKIO TV)](https://www.youtube.com/watch?v=9dNukdwBfoQ)
+- [MPPT What is it and How it works? (Electronoobs)](https://www.youtube.com/watch?v=jJwVyOqxCaQ)
+- [MPPT Incremental conductance method concept & flowchart](https://www.youtube.com/watch?v=qIajSDd5Xzs)
 
 ## Montagesystem  
 Das Montagesystem dient zur Befestigung der Solarmodule auf dem Dach oder dem Boden. Es muss stabil, wetterfest und optimal ausgerichtet sein, um eine effiziente Energieerzeugung zu gewährleisten.
 
-## Verkabelung und Anschluss  
-Die Verkabelung verbindet die Solarzellen, Wechselrichter und weitere Komponenten miteinander. Der Anschluss an das Stromnetz erfolgt über einen Wechselrichter und einen Zähler, der die eingespeiste Energie erfasst.
+Beispielhafte Hersteller von PV-Montagesystemen:
 
-## Überwachungs- und Steuerungssystem  
-Ein Monitoring-System überwacht die Leistung der Photovoltaikanlage und informiert den Betreiber über den Energieertrag, mögliche Störungen oder Wartungsbedarf. Moderne Anlagen können über Apps oder Online-Plattformen gesteuert und optimiert werden.
+- [K2 Systems](https://k2-systems.com)
+- [Schletter Group](https://www.schletter-group.com)
+- [Renusol](https://www.renusol.com)
+- [Esdec](https://www.esdec.com)
+- [AEROCOMPACT](https://www.aerocompact.com)
+- [novotegra](https://www.novotegra.com)
+
+## Verkabelung und Anschluss  
+Tätigkeiten bei Verkabelung und Anschluss:
+
+- Leitungswege planen (DC/AC-Trennung, mechanischer Schutz, Brandschutz)
+- Kabel und Leitungen dimensionieren (Strombelastbarkeit, Spannungsfall, Verlegeart)
+- DC-seitige Leitungen verlegen und anschließen (Stringverkabelung, Stecker, Polarität)
+- AC-seitige Leitungen vom Wechselrichter zur Verteilung herstellen
+- Schutz- und Erdungsmaßnahmen umsetzen (Potentialausgleich, Überspannungsschutz, Abschaltorgane)
+- Zählerplatz und Einspeisepunkt vorbereiten, Abstimmung mit Netzbetreiber
+- Prüfen, dokumentieren, in Betrieb nehmen (Messprotokolle, Anlagenfreigabe)
+
+Gültige Normen und Regelwerke (Auszug):
+
+- OVE E 8101 (Errichtung von Niederspannungsanlagen)
+- OVE/OENORM EN 62548 (Auslegung und Errichtung von PV-Generatoren)
+- OVE/OENORM EN 62446-1 (Pruefung, Dokumentation und Inbetriebnahme von PV-Anlagen)
+- TOR Erzeuger (Technische und organisatorische Regeln der Netzbetreiber fuer den Netzanschluss)
+- Technische Anschlussbedingungen des jeweils zustaendigen Netzbetreibers (TAEV/TAB)
 
 # Auslegung einer Photovoltaikanlage
+
+Siehe Unterlagen im OneNote.
+
+Die Auslegung einer Photovoltaikanlage erfolgt typischerweise in klaren Einzelschritten.
+
+1. **Bedarf analysieren**
+
+- Jahresstromverbrauch und Lastprofil erfassen
+- Ziel definieren (Eigenverbrauch, Einspeisung, Speicher, Notstrom)
+
+2. **Standort bewerten**
+
+- Dachflächen, Ausrichtung und Neigung aufnehmen
+- Verschattung analysieren (Bäume, Kamine, Nachbargebäude)
+- Statik und bauliche Randbedingungen prüfen
+
+3. **PV-Generator dimensionieren**
+
+- Modulleistung und Anzahl der Module festlegen
+- Stringaufteilung passend zum Wechselrichter planen
+- Spannungs- und Stromgrenzen der Komponenten einhalten
+
+4. **Wechselrichter und Speicher auswählen**
+
+- AC-Nennleistung passend zur Generatorgröße wählen
+- MPPT-Anzahl und Eingangsbereiche prüfen
+- Optional: Speichergröße und Lade-/Entladeleistung abstimmen
+
+5. **Verkabelung und Schutzkonzept auslegen**
+
+- DC- und AC-Leitungsquerschnitte bestimmen
+- Schutzorgane festlegen (Überstrom, Überspannung, Trennstellen)
+- Erdung und Potentialausgleich planen
+
+6. **Netzanschluss klären**
+
+- Anschlussbedingungen beim Netzbetreiber einholen
+- Einspeisekonzept und Zählerkonzept abstimmen
+- Erforderliche Meldungen und Unterlagen vorbereiten
+
+7. **Ertrag und Wirtschaftlichkeit bewerten**
+
+- Jahresertrag unter Berücksichtigung von Lage und Verlusten abschätzen
+- Eigenverbrauchsanteil und Einspeisung berechnen
+- Investitionskosten, Betriebskosten und Amortisation vergleichen
+
+8. **Dokumentation, Inbetriebnahme und Monitoring**
+
+- Anlagendokumentation und Prüfprotokolle erstellen
+- Fachgerechte Inbetriebnahme durchführen
+- Monitoring einrichten und Soll-Ist-Vergleich starten
+
+Hilfreiche Links für Auslegung und Wirtschaftlichkeitsrechnung:
+
+- [PVGIS - Ertragsabschätzung (EU/JRC)](https://re.jrc.ec.europa.eu/pvg_tools/en/)
+- [Global Solar Atlas - Einstrahlung und PV-Potenzial](https://globalsolaratlas.info/)
+- [E-Control Tarifkalkulator - Stromtarife in Österreich](https://www.e-control.at/tarifkalkulator)
+- [Umweltförderung Österreich (UFI) - Förderinformationen](https://www.umweltfoerderung.at/)
+- [OeMAG - Informationen zu Einspeisung und Abwicklung](https://www.oem-ag.at/)
 

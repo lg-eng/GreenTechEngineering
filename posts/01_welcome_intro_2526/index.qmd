@@ -1,0 +1,56 @@
+---
+title: "01 Welcome to Green Tech Engineering! 2025/26"
+author: "Leopold Götsch"
+date: "2025-09-08"
+categories: [news]
+page-layout: article
+image: Team.jpeg
+draft: false
+format:
+  html:
+    toc: true
+    math: true
+    number-sections: true
+---
+
+
+# Organisatorisches
+- Teams
+- OneNote
+
+# Vorstellrunde
+
+**Ablauf:**    
+   - Name  
+   - Warum Sie sich für Green Tech Engineering interessieren  
+   - Eine grüne Technologie, die sie beeindruckend finden oder von der sie gehört haben  
+
+# Einführung in die Grüne Technologie
+## Definition von Green Tech Engineering
+Green Tech Engineering umfasst Technologien, die ökologische Verantwortung mit wirtschaftlichem Nutzen verbinden – von Kosteneinsparungen über Innovation bis hin zu neuen Wachstumschancen.
+
+## Beispiele
+
+1. **Energieeffiziente Automatisierungssysteme:**
+   - **Intelligente Gebäudeautomation:** Systeme, die durch Steuerungseinheiten die Beleuchtung, Heizung und Kühlung in Gebäuden optimieren. Sensoren und Aktuatoren arbeiten zusammen, um den Energieverbrauch basierend auf der tatsächlichen Nutzung und Umgebungsbedingungen zu reduzieren.
+
+3. **Intelligente Energieverteilung:**
+   - **Smart Grids:** Elektronik wird eingesetzt, um intelligente Stromnetze zu entwickeln, die durch Sensoren und Steuerungssysteme die Energieverteilung in Echtzeit überwachen und anpassen. Dies ermöglicht eine effizientere Nutzung von erneuerbaren Energien und eine bessere Integration von Energiespeichern.
+
+5. **Umweltfreundliche Transportlösungen:**
+   - **Elektrofahrzeug-Managementsysteme:** Systeme in Elektrofahrzeugen umfassen Batteriemanagementsysteme (BMS), die die Lade- und Entladezyklen überwachen und optimieren, um die Lebensdauer der Batterie zu verlängern und die Energieeffizienz zu maximieren. Auch die Integration von regenerativen Bremsensystemen zur Energieerzeugung während des Bremsvorgangs gehört dazu.
+
+## Motivation
+Was motiviert Sie für das Fach Green Tech Engineering?
+
+## Gruppenarbeit: Brainstorming zu grünen Technologien
+**Ablauf:**  
+- Aufteilung in kleine Gruppen (3-4 Schüler)  
+- Jede Gruppe arbeitet eine OneNote Seite aus.  
+- Aufgabenstellung:    
+   1. Denken Sie an verschiedene grüne Technologien. Tragen Sie diese auf der OneNote Seite zusammen. Jede Technologie darf nur einmal genannt werden.
+   2. Schreiben Sie auf, was diese Technologien umweltfreundlich macht.  
+   3. Wählen Sie eine Technologie aus, die Sie besonders interessant findet und bereitet eine kurze Präsentation vor.  
+
+**Präsentation der Ergebnisse:**  
+- Jede Gruppe präsentiert ihre ausgewählte Technologie und erläutert, warum sie der Definition entspricht ist (ca. 2-3 Minuten pro Gruppe).

@@ -1,9 +1,10 @@
 ---
-title: "00 Lehrinhalte Green Tech Engineering"
+title: "00 Lehrinhalte Green Tech Engineering 2024/25"
 author: "Leopold Götsch"
 date: "2024-07-28"
 categories: [news]
 image: Maintheme.jpeg
+draft: true
 ---
 
 Hier finden Sie das  Curriculum für das Schwerpunktfach Green Tech Engineering.

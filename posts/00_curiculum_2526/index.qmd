@@ -1,0 +1,66 @@
+---
+title: "00 Lehrinhalte Green Tech Engineering 2025/26"
+author: "Leopold Götsch"
+date: "2025-09-08"
+categories: [news]
+image: Maintheme.jpeg
+draft: false
+---
+
+Hier finden Sie das  Curriculum für das Schwerpunktfach Green Tech Engineering.
+
+
+# 🌍 Green Tech Engineering – Core Topics
+
+### ⚡ **Green Energy**
+
+* Renewable generation: solar, wind, hydro, geothermal, biomass.
+* Energy storage: batteries, hydrogen, gravity storage.
+* Carbon-negative systems: carbon capture, biochar.
+
+---
+
+### 🚉 **Green Transport**
+
+* Electric vehicles and alternative concepts.
+* Sustainable aviation & shipping.
+* Shared, autonomous, and public transport systems.
+* Lightweight, recyclable materials for mobility.
+
+---
+
+### 🏙️ **Green Buildings**
+
+* Net-zero and energy-positive architecture.
+* Eco-materials
+* Smart buildings: IoT for energy efficiency.
+* Green urban planning: vertical farms, rooftop gardens.
+
+---
+
+### 🔌 **Energy Distribution**
+
+* Smart grids & microgrids for resilience.
+* Peer-to-peer energy trading.
+* Cross-border renewable energy sharing.
+* Cutting-edge: blockchain, vehicle-to-grid systems.
+
+---
+
+### 🚀 **Advanced Concepts**
+
+* Space-based solar power.
+* Artificial photosynthesis.
+* Geoengineering (cautious, last resort).
+* Ocean energy farms.
+
+---
+
+### 🔗 **Cross-Cutting Enablers**
+
+* AI & IoT for optimization.
+* Advanced materials & nanotech.
+* Blockchain for transparency.
+* Policy, regulation, and green finance.
+
+---

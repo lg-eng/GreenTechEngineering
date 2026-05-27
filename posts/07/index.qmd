@@ -1,0 +1,18 @@
+---
+title: "07 Green Energy: Hydropower"
+author: "Leopold Götsch"
+date: "2025-11-06"
+categories: [news]
+page-layout: article
+image: title_image.jpeg
+draft: true
+format:
+  html:
+    toc: true
+    math: true
+    number-sections: true
+---
+
+
+# Theory on hydropower - from setup to efficiency
+
